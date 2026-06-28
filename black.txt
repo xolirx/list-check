@@ -1,1 +1,7 @@
+#profile-title: XolirX VPN | 🚀
+#profile-update-interval: 1
+#support-url: https://t.me/xolirx
+#profile-web-page-url: https://xolirx-vpn.vercel.app/
+#announce: 🌐 telegram - @vpn_by_xolirx 🌐
+#color: #ff2d2d
 
