@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: base64:8J+foCDQodC10YDQstC40YEg0L/QvtC70L3QvtGB0YLRjNGOINCx0LXQv9C70LDRgtC90YvQuSDwn6OQDfCfnoQg0J/QvtC00LTQtdGA0LbQutCwIC0gQHhvbGlyeCAtIHRlbGVncmFtIPCfj5AN8J+egCDQmtCw0L3QsNC7IC0gQHZwbl9ieV94b2xpcngg8J+jkA==
+#announce: base64:0KHQtdGA0LLQuNGBINC/0L7Qu9C90L7RgdGC0YzRjiDQsdC10L/Qu9Cw0YLQvdGL0Lkg8J+jkA3Qn9C+0LTQtNC10YDQttC60LAgLSBAeG9saXJ4IC0gdGVsZWdyYW0g8J+jkA3QmtCw0L3QsNC7IC0gQHZwbl9ieV94b2xpcngg8J+jkA==
 #color: #ff2d2d
 
 vless://527561c6-bed1-44c5-8404-f322fbf7ced2@mio.game2lizard.com:2087?encryption=none&type=xhttp&security=tls&host=liz11.jooje.lat&mode=auto&sni=liz11.jooje.lat&fp=chrome&insecure=0&allowInsecure=0#🇩🇪 Германия
