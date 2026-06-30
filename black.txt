@@ -1,9 +1,9 @@
 #profile-title: XolirX VPN | 🚀
 #profile-update-interval: 1
-#subscription-userinfo: expire=3083760000; download=10737418240; upload=0; total=21474836480
+#subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: base64:8J+foCDQodC10YDQstC40YEg0L/QvtC70L3QvtGB0YLRjNGOINCx0LXQv9C70LDRgtC90YvQuSDQvCDwn5+gINCf0L7QtNC00LXRgNC20LrQsCAtIEB4b2xpcnggLSB0ZWxlZ3JhbSDQvCDwn5+gINCa0LDQvdCw0LsgLSBAdnBuX2J5X3hvbGlyeA==
+#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
 #color: #ff2d2d
 
 vless://527561c6-bed1-44c5-8404-f322fbf7ced2@mio.game2lizard.com:2087?encryption=none&type=xhttp&security=tls&host=liz11.jooje.lat&mode=auto&sni=liz11.jooje.lat&fp=chrome&insecure=0&allowInsecure=0#🇩🇪 Германия
