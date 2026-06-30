@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: base64:8J+foCDQodC10YDQstC40YEg0L/QvtC70L3QvtGB0YLRjNGOINCx0LXQv9C70LDRgtC90YvQuSDwn6OQDfCfnoQg0J/QvtC00LTQtdGA0LbQutCwIC0gQHhvbGlyeCAtIHRlbGVncmFtIPCfj5AN8J+egCDQmtCw0L3QsNC7IC0gQHZwbl9ieV94b2xpcngg8J+jkA==
+#announce: base64:0KHQtdGA0LLQuNGBINC/0L7Qu9C90L7RgdGC0YzRjiDQsdC10L/Qu9Cw0YLQvdGL0Lkg8J+jkA3Qn9C+0LTQtNC10YDQttC60LAgLSBAeG9saXJ4IC0gdGVsZWdyYW0g8J+jkA3QmtCw0L3QsNC7IC0gQHZwbl9ieV94b2xpcngg8J+jkA==
 #color: #ff2d2d
 
 vless://ae43ed30-ad71-475d-b55c-b156f602a6cd@securitytrails.com:2087?mode=auto&path=%2Fforall&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=fl2.forall-npv.shop&fp=chrome&type=xhttp&allowInsecure=0&sni=fl2.forall-npv.shop#🇳🇱 Нидерланды
