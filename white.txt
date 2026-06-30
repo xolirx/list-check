@@ -1,9 +1,9 @@
 #profile-title: XolirX VPN | 🚀 | WHITE
 #profile-update-interval: 1
-#subscription-userinfo: expire=3083760000; download=10737418240; upload=0; total=21474836480
+#subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: base64:8J+foCDQodC10YDQstC40YEg0L/QvtC70L3QvtGB0YLRjNGOINCx0LXQv9C70LDRgtC90YvQuSDQvCDwn5+gINCf0L7QtNC00LXRgNC20LrQsCAtIEB4b2xpcnggLSB0ZWxlZ3JhbSDQvCDwn5+gINCa0LDQvdCw0LsgLSBAdnBuX2J5X3hvbGlyeA==
+#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
 #color: #ff2d2d
 
 vless://ae43ed30-ad71-475d-b55c-b156f602a6cd@securitytrails.com:2087?mode=auto&path=%2Fforall&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=fl2.forall-npv.shop&fp=chrome&type=xhttp&allowInsecure=0&sni=fl2.forall-npv.shop#🇳🇱 Нидерланды
