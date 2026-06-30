@@ -1,5 +1,6 @@
 #profile-title: XolirX VPN | 🚀
 #profile-update-interval: 1
+#subscription-userinfo: expire=3083760000; download=10737418240; upload=0; total=21474836480
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
 #announce: base64:8J+foCDQodC10YDQstC40YEg0L/QvtC70L3QvtGB0YLRjNGOINCx0LXQv9C70LDRgtC90YvQuSDQvCDwn5+gINCf0L7QtNC00LXRgNC20LrQsCAtIEB4b2xpcnggLSB0ZWxlZ3JhbSDQvCDwn5+gINCa0LDQvdCw0LsgLSBAdnBuX2J5X3hvbGlyeA==
