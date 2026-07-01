@@ -1,9 +1,9 @@
-#profile-title: XolirX VPN | 🚀
+#profile-title: XolirX VPN | 🚀 Бесплатный VPN для всех
 #profile-update-interval: 1
 #subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
-#support-url: https://t.me/xolirx
+#support-url: https://t.me/nekakw
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
+#announce: 🟢 Сервис полностью бесплатный | 🟢 Поддержка - @nekakw | 🟢 Канал - @vpn_by_xolirx
 #color: #ff2d2d
 
 vless://6429d1d5-de69-4758-9046-e72861a40cb9@bul.sempai.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=bul.sempai.site&fp=chrome&pbk=1khdgzPjogVxzOE8Z1JwjWrWw1PKOcApIHjvEF9Xwhs&type=tcp&headerType=none#🇫🇮 Финляндия
