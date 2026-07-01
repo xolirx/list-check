@@ -1,9 +1,9 @@
 #profile-title: XolirX VPN | 🚀 | WHITE
 #profile-update-interval: 1
 #subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
-#support-url: https://t.me/xolirx
+#support-url: https://t.me/nekakw
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
+#announce: 🟢 Сервис полностью бесплатный | 🟢 Поддержка - @nekakw | 🟢 Канал - @vpn_by_xolirx
 #color: #ff2d2d
 
 vless://b2b8bd00-2e42-4875-8d7b-bcf97093a1d4@95.163.211.206:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=at.sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#🇺🇸 США
