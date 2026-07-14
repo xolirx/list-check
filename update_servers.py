@@ -8,6 +8,10 @@ VLESS_BLACK_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-rus
 VLESS_WHITE_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
 BLACK_OUT = "bla.txt"
 WHITE_OUT = "white.txt"
+BLACK_STD_OUT = "wi-fi(black).txt"
+BLACK_PREM_OUT = "wi-fi(black)prem.txt"
+WHITE_STD_OUT = "lte(white).txt"
+WHITE_PREM_OUT = "lte(white)prem.txt"
 MAX_WORKERS = 50
 VLESS_CHECK_TIMEOUT = 3
 MAX_RETRIES = 3
@@ -308,9 +312,25 @@ def generate_routing():
         logger.error(f"Routing generation error: {e}")
         return ""
 
-COLOR_PROFILE = """{"backgroundGradientRotationAngle":37.1,"serverRowBackgroundColor":"#21003D67","subsHeaderColor":"#42296DFF","profileWebPageIconColor":"#A2B8FFFF","selectedServerRowColor":"#3E2F62B5","disclosureSubHeaderTextColor":"#C1C2E2FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#21003CFF","backgroundColors":["#3D2A7DFF","#6557BAFF","#9377FF7F"],"disclosureHeaderTextColor":"#FFFFFFFF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#C1C2E2FF","supportIconColor":"#FFFFFFFF","topBarButtonsColor":"#FFFFFFFF","subscriptionTrafficBackgroundColor":"#533EA7FF","subHeaderButtonColor":"#FFFFFFFF","buttonColor":"#9377FFFF","powerIconColor":"#3D2A7DFF","subscriptionInfoTextColor":"#FFFFFFFF","serverRowTitleTextColor":"#FFFFFFFF","backgroundImageType":"system","elipseColors":["#00B460FF","#CF72FFE0","#FFDD00FF"],"serverRowChevronColor":"#FFFFFFFF"}"""
+COLOR_PROFILE_JSON = """{"backgroundGradientRotationAngle":37.1,"serverRowBackgroundColor":"#21003D67","subsHeaderColor":"#42296DFF","profileWebPageIconColor":"#A2B8FFFF","selectedServerRowColor":"#3E2F62B5","disclosureSubHeaderTextColor":"#C1C2E2FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#21003CFF","backgroundColors":["#3D2A7DFF","#6557BAFF","#9377FF7F"],"disclosureHeaderTextColor":"#FFFFFFFF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#C1C2E2FF","supportIconColor":"#FFFFFFFF","topBarButtonsColor":"#FFFFFFFF","subscriptionTrafficBackgroundColor":"#533EA7FF","subHeaderButtonColor":"#FFFFFFFF","buttonColor":"#9377FFFF","powerIconColor":"#3D2A7DFF","subscriptionInfoTextColor":"#FFFFFFFF","serverRowTitleTextColor":"#FFFFFFFF","backgroundImageType":"system","elipseColors":["#00B460FF","#CF72FFE0","#FFDD00FF"],"serverRowChevronColor":"#FFFFFFFF"}"""
+COLOR_PROFILE = "base64:" + base64.b64encode(COLOR_PROFILE_JSON.encode()).decode()
 
-COMMON_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
+STANDARD_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
+#support-url: https://t.me/xolirx
+#profile-web-page-url: https://xolirx-vpn.vercel.app/
+#ping-type: proxy
+#check-url-via-proxy: https://cp.cloudflare.com/generate_204
+#ping-result: icon
+#change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+#server-address-resolve-enable: 1
+#server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
+#server-address-resolve-dns-ip: 77.88.8.8
+
+"""
+
+PREMIUM_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
 #support-url: https://t.me/xolirx
@@ -333,20 +353,22 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
 #change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#providerid UtCAM4Ag
+#providerid TcP1jBHx
 #server-address-resolve-enable: 1
 #server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
 #server-address-resolve-dns-ip: 77.88.8.8
 
 """
 
-BLACK_HEADER = COMMON_HEADERS
-
 _PREFIX = "#profile-title: XolirX VPN | ⚫ |\n"
-WHITE_HEADER = f"""#profile-title: XolirX VPN | ⚪ |
-{COMMON_HEADERS.removeprefix(_PREFIX)}"""
+BLACK_STD_HEADER = STANDARD_HEADERS
+WHITE_STD_HEADER = f"""#profile-title: XolirX VPN | ⚪ |
+{STANDARD_HEADERS.removeprefix(_PREFIX)}"""
+BLACK_PREM_HEADER = PREMIUM_HEADERS
+WHITE_PREM_HEADER = f"""#profile-title: XolirX VPN | ⚪ |
+{PREMIUM_HEADERS.removeprefix(_PREFIX)}"""
 
-async def fetch_and_check(path_black, path_white):
+async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_white_prem):
     black_text, white_text = await asyncio.gather(
         fetch_text(VLESS_BLACK_URL),
         fetch_text(VLESS_WHITE_URL)
@@ -354,9 +376,9 @@ async def fetch_and_check(path_black, path_white):
 
     results = []
 
-    for source_text, out_path, label, protocols in [
-        (black_text, path_black, "Black", ["vless://"]),
-        (white_text, path_white, "White", ["vless://", "hysteria2://", "trojan://"]),
+    for source_text, label, protocols in [
+        (black_text, "Black", ["vless://"]),
+        (white_text, "White", ["vless://", "hysteria2://", "trojan://"]),
     ]:
         if not source_text:
             logger.error(f"{label} source empty")
@@ -413,24 +435,40 @@ async def fetch_and_check(path_black, path_white):
                 formatted_lines.append(line)
         clean_content = "\n".join(formatted_lines)
         routing_link = generate_routing()
-        header = BLACK_HEADER if label == "Black" else WHITE_HEADER
-        content = header + clean_content + "\n\n" + routing_link
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(content)
-        logger.info(f"{label} saved to {out_path}")
+
+        std_header = BLACK_STD_HEADER if label == "Black" else WHITE_STD_HEADER
+        prem_header = BLACK_PREM_HEADER if label == "Black" else WHITE_PREM_HEADER
+
+        std_path = path_black_std if label == "Black" else path_white_std
+        prem_path = path_black_prem if label == "Black" else path_white_prem
+
+        std_content = std_header + clean_content + "\n\n" + routing_link
+        with open(std_path, "w", encoding="utf-8") as f:
+            f.write(std_content)
+        logger.info(f"{label} standard saved to {std_path}")
+
+        prem_content = prem_header + clean_content + "\n\n" + routing_link
+        with open(prem_path, "w", encoding="utf-8") as f:
+            f.write(prem_content)
+        logger.info(f"{label} premium saved to {prem_path}")
+
         results.append(True)
 
     return all(results)
 
 async def main():
     if len(sys.argv) > 1:
-        black_path = sys.argv[1]
-        white_path = sys.argv[2] if len(sys.argv) > 2 else WHITE_OUT
+        black_std_path = sys.argv[1]
+        black_prem_path = sys.argv[2] if len(sys.argv) > 2 else BLACK_PREM_OUT
+        white_std_path = sys.argv[3] if len(sys.argv) > 3 else WHITE_STD_OUT
+        white_prem_path = sys.argv[4] if len(sys.argv) > 4 else WHITE_PREM_OUT
     else:
-        black_path = BLACK_OUT
-        white_path = WHITE_OUT
-    logger.info(f"Output: {black_path}, {white_path}")
-    ok = await fetch_and_check(black_path, white_path)
+        black_std_path = BLACK_STD_OUT
+        black_prem_path = BLACK_PREM_OUT
+        white_std_path = WHITE_STD_OUT
+        white_prem_path = WHITE_PREM_OUT
+    logger.info(f"Output: {black_std_path}, {black_prem_path}, {white_std_path}, {white_prem_path}")
+    ok = await fetch_and_check(black_std_path, black_prem_path, white_std_path, white_prem_path)
     sys.exit(0 if ok else 1)
 
 if __name__ == "__main__":
