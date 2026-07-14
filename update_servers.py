@@ -308,41 +308,44 @@ def generate_routing():
         logger.error(f"Routing generation error: {e}")
         return ""
 
-BLACK_HEADER = """#profile-title: XolirX VPN | 🚀
-#profile-update-interval: 1
-#subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
+COLOR_PROFILE = """{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1B2EFF","subsHeaderColor":"#252641FF","profileWebPageIconColor":"#00DAC5FF","selectedServerRowColor":"#2A2B4AFF","disclosureSubHeaderTextColor":"#9899B8FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#1E1F38FF","backgroundColors":["#131428FF","#1A1B33FF","#131428FF"],"disclosureHeaderTextColor":"#E4E4F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#9899B8FF","supportIconColor":"#00DAC5FF","topBarButtonsColor":"#E4E4F0FF","subscriptionTrafficBackgroundColor":"#252641FF","subHeaderButtonColor":"#B8B9D4FF","buttonColor":"#00DAC5FF","powerIconColor":"#131428FF","subscriptionInfoTextColor":"#E4E4F0FF","serverRowTitleTextColor":"#E4E4F0FF","backgroundImageType":"system","elipseColors":["#00DAC5FF","#7C5DFFFF","#FF8FABFF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#00DAC5FF"}"""
+
+COMMON_HEADERS = f"""#profile-title: XolirX VPN
+#profile-update-interval: 12
+#subscription-auto-update-enable: 1
+#subscription-auto-update-open-enable: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240; expire=3082665600
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
-#subscription-pin: true
-#hide-settings: 1
-#color-profile: {"backgroundGradientRotationAngle":37.1,"serverRowBackgroundColor":"#2D0000FF","subsHeaderColor":"#FF3B30FF","profileWebPageIconColor":"#FF6B6BFF","selectedServerRowColor":"#5A1E1EFF","disclosureSubHeaderTextColor":"#FFA3A3FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#3D0000FF","backgroundColors":["#4A0E0EFF","#7A1A1AFF","#B32424FF"],"disclosureHeaderTextColor":"#FFFFFFFF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#FFA3A3FF","supportIconColor":"#FFFFFFFF","topBarButtonsColor":"#FFFFFFFF","subscriptionTrafficBackgroundColor":"#5C1A1AFF","subHeaderButtonColor":"#FFFFFFFF","buttonColor":"#FF3B30FF","powerIconColor":"#7A1A1AFF","subscriptionInfoTextColor":"#FFFFFFFF","serverRowTitleTextColor":"#FFFFFFFF","backgroundImageType":"system","elipseColors":["#FF2D2DFF","#FF6B6BFF","#FFA3A3FF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#FF3B30FF"}
-#subscriptions-collapse: 0
+#subscription-ping-onopen-enabled: 1
+#ping-type: proxy
+#check-url-via-proxy: https://cp.cloudflare.com/generate_204
 #ping-result: time
-#sub-info-text: 🚀 XolirX VPN - полностью бесплатный сервис! Приятного использования ❤️
-#sub-info-color: red
-#sub-info-button-text: Перейти в канал
+#hide-settings: 1
+#routing-enable: 1
+#sniffing-enable: 1
+#dont-use-filter: 1
+#hide-vpn-icon: 0
+#app-auto-start: 1
+#subscriptions-collapse: 0
+#subscriptions-expand-now: 1
+#sub-expire: 1
+#sub-expire-button-link: https://t.me/xolirx
+#notification-subs-expire: 1
+#color-profile: {COLOR_PROFILE}
+#announce: XolirX VPN — полностью бесплатный сервис. Поддержка: @xolirx
+#sub-info-text: XolirX VPN — полностью бесплатный сервис! Приятного использования ❤️
+#sub-info-color: green
+#sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
+#change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
 
 """
 
-WHITE_HEADER = """#profile-title: XolirX VPN | 🚀 | WHITE
-#profile-update-interval: 1
-#subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
-#support-url: https://t.me/xolirx
-#profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
-#subscription-pin: true
-#hide-settings: 1
-#color-profile: {"backgroundGradientRotationAngle":37.1,"serverRowBackgroundColor":"#2D0000FF","subsHeaderColor":"#FF3B30FF","profileWebPageIconColor":"#FF6B6BFF","selectedServerRowColor":"#5A1E1EFF","disclosureSubHeaderTextColor":"#FFA3A3FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#3D0000FF","backgroundColors":["#4A0E0EFF","#7A1A1AFF","#B32424FF"],"disclosureHeaderTextColor":"#FFFFFFFF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#FFA3A3FF","supportIconColor":"#FFFFFFFF","topBarButtonsColor":"#FFFFFFFF","subscriptionTrafficBackgroundColor":"#5C1A1AFF","subHeaderButtonColor":"#FFFFFFFF","buttonColor":"#FF3B30FF","powerIconColor":"#7A1A1AFF","subscriptionInfoTextColor":"#FFFFFFFF","serverRowTitleTextColor":"#FFFFFFFF","backgroundImageType":"system","elipseColors":["#FF2D2DFF","#FF6B6BFF","#FFA3A3FF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#FF3B30FF"}
-#subscriptions-collapse: 0
-#ping-result: time
-#sub-info-text: 🚀 XolirX VPN - полностью бесплатный сервис! Приятного использования ❤️
-#sub-info-color: red
-#sub-info-button-text: Перейти в канал
-#sub-info-button-link: https://t.me/vpn_by_xolirx
+BLACK_HEADER = COMMON_HEADERS
 
-"""
+WHITE_HEADER = f"""#profile-title: XolirX VPN | WHITE
+{COMMON_HEADERS.removeprefix("#profile-title: XolirX VPN\n")}"""
 
 async def fetch_and_check(path_black, path_white):
     black_text, white_text = await asyncio.gather(
