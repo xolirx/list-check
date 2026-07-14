@@ -308,7 +308,7 @@ def generate_routing():
         logger.error(f"Routing generation error: {e}")
         return ""
 
-COLOR_PROFILE = """{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1B2EFF","subsHeaderColor":"#252641FF","profileWebPageIconColor":"#00DAC5FF","selectedServerRowColor":"#2A2B4AFF","disclosureSubHeaderTextColor":"#9899B8FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#1E1F38FF","backgroundColors":["#131428FF","#1A1B33FF","#131428FF"],"disclosureHeaderTextColor":"#E4E4F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#9899B8FF","supportIconColor":"#00DAC5FF","topBarButtonsColor":"#E4E4F0FF","subscriptionTrafficBackgroundColor":"#252641FF","subHeaderButtonColor":"#B8B9D4FF","buttonColor":"#00DAC5FF","powerIconColor":"#131428FF","subscriptionInfoTextColor":"#E4E4F0FF","serverRowTitleTextColor":"#E4E4F0FF","backgroundImageType":"system","elipseColors":["#00DAC5FF","#7C5DFFFF","#FF8FABFF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#00DAC5FF"}"""
+COLOR_PROFILE = """{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1B2EFF","subsHeaderColor":"#1E1F38FF","profileWebPageIconColor":"#00DAC5FF","selectedServerRowColor":"#2A2B4AFF","disclosureSubHeaderTextColor":"#9899B8FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#1E1F38FF","backgroundColors":["#0A0B18FF","#131428FF","#0A0B18FF"],"disclosureHeaderTextColor":"#E4E4F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#7C7DA0FF","supportIconColor":"#00DAC5FF","topBarButtonsColor":"#E4E4F0FF","subscriptionTrafficBackgroundColor":"#1E1F38FF","subHeaderButtonColor":"#B8B9D4FF","buttonColor":"#00DAC5FF","powerIconColor":"#0A0B18FF","subscriptionInfoTextColor":"#B8B9D4FF","serverRowTitleTextColor":"#E4E4F0FF","backgroundImageType":"system","elipseColors":["#00DAC5FF","#7C5DFFFF","#FF8FABFF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#00DAC5FF"}"""
 
 COMMON_HEADERS = f"""#profile-title: XolirX VPN
 #profile-update-interval: 12
@@ -334,8 +334,8 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN
 #notification-subs-expire: 1
 #color-profile: {COLOR_PROFILE}
 #announce: XolirX VPN — полностью бесплатный сервис. Поддержка: @xolirx
-#sub-info-text: XolirX VPN — полностью бесплатный сервис! Приятного использования ❤️
-#sub-info-color: green
+#sub-info-text: XolirX VPN — бесплатный VPN без ограничений. 15+ серверов по всему миру. Приятного использования!
+#sub-info-color: #00DAC5
 #sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
 #change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
@@ -345,7 +345,7 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN
 BLACK_HEADER = COMMON_HEADERS
 
 _PREFIX = "#profile-title: XolirX VPN\n"
-WHITE_HEADER = f"""#profile-title: XolirX VPN | WHITE
+WHITE_HEADER = f"""#profile-title: XolirX VPN (White List)
 {COMMON_HEADERS.removeprefix(_PREFIX)}"""
 
 async def fetch_and_check(path_black, path_white):
