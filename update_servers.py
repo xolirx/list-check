@@ -317,10 +317,10 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN
 #subscription-userinfo: upload=0; download=0; total=10737418240; expire=3082665600
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#subscription-ping-onopen-enabled: 1
+#subscription-ping-onopen-enabled: 0
 #ping-type: proxy
 #check-url-via-proxy: https://cp.cloudflare.com/generate_204
-#ping-result: time
+#ping-result: icon
 #hide-settings: 1
 #routing-enable: 1
 #sniffing-enable: 1
