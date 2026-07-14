@@ -315,16 +315,17 @@ def generate_routing():
 COLOR_PROFILE_JSON = """{"backgroundGradientRotationAngle":39.21265661716461,"serverRowChevronColor":"#F3FFFDFF","buttonImageType":"light","buttonTimerColor":"#3B3C3DFF","subscriptionTrafficBackgroundColor":"#00343BFF","subscriptionInfoBackgroundColor":"#006B7AFF","serverRowTitleTextColor":"#D0FFF3FF","serverRowBackgroundColor":"#02424DFF","powerIconColor":"#05525ACA","supportIconColor":"#F3FFF9FF","profileWebPageIconColor":"#F5FFF9FF","selectedServerRowColor":"#006B7BFF","disclosureHeaderTextColor":"#D0FFF3FF","subsHeaderColor":"#007982FF","elipseColors":["#4DFF00CC","#E2FF00FF","#FF6000FF"],"subscriptionInfoTextColor":"#E5FFF7FF","buttonColor":"#8FFFFEFF","serverRowSubTitleTextColor":"#ADD3CBFF","topBarButtonsColor":"#FFFFFFD8","settingsControlsTintColor":"#00C3C1FF","backgroundGradientColorIntensity":1,"disclosureSubHeaderTextColor":"#A4FFE599","additionalOptionsButtonColor":"#FBFFFF99","backgroundImageType":"light","backgroundColors":["#003740FF","#003740FF","#005255FF","#00A6A1FF","#00C9DDFF"],"subHeaderButtonColor":"#BAD7CFFF","buttonTextColor":"#000000FF"}"""
 COLOR_PROFILE = base64.b64encode(COLOR_PROFILE_JSON.encode()).decode()
 
-STANDARD_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
+STANDARD_HEADERS = f"""#announce: base64:{base64.b64encode("XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка: @xolirx".encode()).decode()}
+#profile-title: XolirX VPN
+#profile-update-interval: None
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
 #support-url: https://t.me/xolirx
-#profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
+#profile-web-page-url: https://t.me/xolirx
 
 """
 
-PREMIUM_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
+PREMIUM_HEADERS = f"""#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
+#profile-title: XolirX VPN | ⚫ |
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
 #support-url: https://t.me/xolirx
@@ -340,7 +341,6 @@ PREMIUM_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #sub-expire-button-link: https://t.me/xolirx
 #notification-subs-expire: 1
 #color-profile: {COLOR_PROFILE}
-#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
 #sub-info-text: XolirX VPN — бесплатный VPN без ограничений. Приятного использования!
 #sub-info-color: red
 #sub-info-button-text: Канал
@@ -353,13 +353,10 @@ PREMIUM_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 
 """
 
-_PREFIX = "#profile-title: XolirX VPN | ⚫ |\n"
 BLACK_STD_HEADER = STANDARD_HEADERS
-WHITE_STD_HEADER = f"""#profile-title: XolirX VPN | ⚪ |
-{STANDARD_HEADERS.removeprefix(_PREFIX)}"""
+WHITE_STD_HEADER = STANDARD_HEADERS
 BLACK_PREM_HEADER = PREMIUM_HEADERS
-WHITE_PREM_HEADER = f"""#profile-title: XolirX VPN | ⚪ |
-{PREMIUM_HEADERS.removeprefix(_PREFIX)}"""
+WHITE_PREM_HEADER = PREMIUM_HEADERS.replace("| ⚫ |", "| ⚪ |")
 
 async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_white_prem):
     black_text, white_text = await asyncio.gather(
