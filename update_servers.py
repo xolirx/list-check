@@ -320,13 +320,7 @@ STANDARD_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#ping-type: proxy
-#check-url-via-proxy: https://cp.cloudflare.com/generate_204
-#ping-result: icon
-#change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#server-address-resolve-enable: 1
-#server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
-#server-address-resolve-dns-ip: 77.88.8.8
+#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
 
 """
 
@@ -337,7 +331,6 @@ PREMIUM_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
 #ping-type: proxy
 #check-url-via-proxy: https://cp.cloudflare.com/generate_204
-#ping-result: icon
 #hide-settings: 1
 #routing-enable: 1
 #sniffing-enable: 1
