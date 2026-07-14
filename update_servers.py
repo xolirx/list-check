@@ -344,8 +344,9 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN
 
 BLACK_HEADER = COMMON_HEADERS
 
+_PREFIX = "#profile-title: XolirX VPN\n"
 WHITE_HEADER = f"""#profile-title: XolirX VPN | WHITE
-{COMMON_HEADERS.removeprefix("#profile-title: XolirX VPN\n")}"""
+{COMMON_HEADERS.removeprefix(_PREFIX)}"""
 
 async def fetch_and_check(path_black, path_white):
     black_text, white_text = await asyncio.gather(
