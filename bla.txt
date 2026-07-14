@@ -1,21 +1,33 @@
-#profile-title: XolirX VPN | 🚀
-#profile-update-interval: 1
-#subscription-userinfo: expire=3082665600; download=10737418240; upload=0; total=21474836480
+#profile-title: XolirX VPN
+#profile-update-interval: 12
+#subscription-auto-update-enable: 1
+#subscription-auto-update-open-enable: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240; expire=3082665600
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#announce: 🟠 Сервис полностью бесплатный | 🟠 Поддержка - @xolirx - telegram | 🟠 Канал - @vpn_by_xolirx
-#subscription-pin: true
-#hide-settings: 1
-#color-profile: {"backgroundGradientRotationAngle":37.1,"serverRowBackgroundColor":"#2D0000FF","subsHeaderColor":"#FF3B30FF","profileWebPageIconColor":"#FF6B6BFF","selectedServerRowColor":"#5A1E1EFF","disclosureSubHeaderTextColor":"#FFA3A3FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#3D0000FF","backgroundColors":["#4A0E0EFF","#7A1A1AFF","#B32424FF"],"disclosureHeaderTextColor":"#FFFFFFFF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#FFA3A3FF","supportIconColor":"#FFFFFFFF","topBarButtonsColor":"#FFFFFFFF","subscriptionTrafficBackgroundColor":"#5C1A1AFF","subHeaderButtonColor":"#FFFFFFFF","buttonColor":"#FF3B30FF","powerIconColor":"#7A1A1AFF","subscriptionInfoTextColor":"#FFFFFFFF","serverRowTitleTextColor":"#FFFFFFFF","backgroundImageType":"system","elipseColors":["#FF2D2DFF","#FF6B6BFF","#FFA3A3FF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#FF3B30FF"}
-#subscriptions-collapse: 0
+#subscription-ping-onopen-enabled: 1
+#ping-type: proxy
+#check-url-via-proxy: https://cp.cloudflare.com/generate_204
 #ping-result: time
-#sub-info-text: 🚀 XolirX VPN - полностью бесплатный сервис! Приятного использования ❤️
-#sub-info-color: red
-#sub-info-button-text: Перейти в канал
+#hide-settings: 1
+#routing-enable: 1
+#sniffing-enable: 1
+#dont-use-filter: 1
+#hide-vpn-icon: 0
+#app-auto-start: 1
+#subscriptions-collapse: 0
+#subscriptions-expand-now: 1
+#sub-expire: 1
+#sub-expire-button-link: https://t.me/xolirx
+#notification-subs-expire: 1
+#color-profile: {"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1B2EFF","subsHeaderColor":"#252641FF","profileWebPageIconColor":"#00DAC5FF","selectedServerRowColor":"#2A2B4AFF","disclosureSubHeaderTextColor":"#9899B8FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#1E1F38FF","backgroundColors":["#131428FF","#1A1B33FF","#131428FF"],"disclosureHeaderTextColor":"#E4E4F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#9899B8FF","supportIconColor":"#00DAC5FF","topBarButtonsColor":"#E4E4F0FF","subscriptionTrafficBackgroundColor":"#252641FF","subHeaderButtonColor":"#B8B9D4FF","buttonColor":"#00DAC5FF","powerIconColor":"#131428FF","subscriptionInfoTextColor":"#E4E4F0FF","serverRowTitleTextColor":"#E4E4F0FF","backgroundImageType":"system","elipseColors":["#00DAC5FF","#7C5DFFFF","#FF8FABFF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#00DAC5FF"}
+#announce: XolirX VPN — полностью бесплатный сервис. Поддержка: @xolirx
+#sub-info-text: XolirX VPN — полностью бесплатный сервис! Приятного использования ❤️
+#sub-info-color: green
+#sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
+#change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
 
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@v2ray_configs_pools&headerType=http&type=tcp#🇫🇮 Финляндия
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=none&encryption=none&host=/?BIA_TELEGRAM@YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy&headerType=http&type=tcp#🇫🇮 Финляндия
 vless://58be4691-5430-417a-96e3-02736d151490@securitytrails.com:2083?security=tls&type=xhttp&path=/forall&host=log.beforenext.dpdns.org&packetEncoding=xudp&alpn=h2,http/1.1&sni=log.beforenext.dpdns.org&fp=chrome&mode=auto&extra={"xPaddingBytes":"100-1000"}&encryption=none#🇫🇮 Финляндия
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?encryption=none&security=none&type=tcp&headerType=http&host=/#🇫🇮 Финляндия
 vless://72d1797c-cef8-410a-b8fd-db9104dc3cb0@8.6.112.0:443?encryption=none&security=tls&sni=amooaliii.net&fp=random&type=ws&host=amooaliii.net&path=%2Fjdhfyws#🇫🇷 Франция
@@ -69,16 +81,15 @@ vless://b2a290df-fafc-4f69-a529-3900fe479ac1@217.60.23.144:443?encryption=none&f
 vless://acc50200-7f21-4f90-9cca-0057efcbf042@try.north-1winter.cv:443?security=reality&encryption=none&pbk=rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.ya.ru&sid=c0573c8280a0c019#🇹🇷 Турция
 vless://6fa1b8eb-56f4-4f41-97dc-e0185bcfc575@backbone.unlimitedteam.space:443?mode=auto&path=%2Fapi%2Fv1%2Fdata&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=backbone.unlimitedteam.space&fp=firefox&type=xhttp&sni=backbone.unlimitedteam.space#🇺🇸 США
 vless://12541593-b3c2-0001-728b-4e862ca36c61@test-azaditim-4bda.up.railway.app:443?mode=stream-up&path=%2Fxhttp-siz10%2Fstream-up%2F12541593-b3c2-0001-728b-4e862ca36c61&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=test-azaditim-4bda.up.railway.app&fp=chrome&type=xhttp&allowInsecure=0&sni=test-azaditim-4bda.up.railway.app#🇺🇸 США
-vless://f3d7ebbc-03a1-40f9-a911-ae8628d3927a@codecanyon.net:8880?encryption=none&type=ws&host=dawn-waterfall-6052.360-001.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none#🇨🇦 Канада
-vless://1cae67cd-9f09-4c59-94e6-998ed0346c44@codecanyon.net:8880?type=ws&host=lingering-lab-91a6.54-8c3.workers.dev&path=/pyip=ProxyIP.US.CMLiussss.net#🇨🇦 Канада
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.877774.xyz:443?encryption=none&security=tls&sni=xhttp3.azadnet5000.dpdns.org&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=xhttp3.azadnet5000.dpdns.org&path=%2F&mode=stream-one#🇨🇦 Канада
-vless://612f78a0-65ca-45af-a3ff-7d0f8e9f8655@cf4.466688.xyz:8880?security=none&type=ws&path=/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian&host=broken-star-c5ae.446.workers.dev&packetEncoding=xudp&encryption=none#🇨🇦 Канада
-vless://663cf772-829c-4bc6-893d-b7d021d42f5b@cf-ip-node.vov.moe:443?type=ws&security=tls&sni=vp1.cc.cd&fp=chrome&path=%2F&host=vp1.cc.cd#🇨🇦 Канада
-vless://663cf772-829c-4bc6-893d-b7d021d42f5b@www.leics.police.uk:443?security=tls&type=ws&path=%2F&host=vp1.cc.cd&packetEncoding=none&sni=vp1.cc.cd&fp=chrome#🇨🇦 Канада
-vless://663cf772-829c-4bc6-893d-b7d021d42f5b@www.leics.police.uk:443?sni=vp1.cc.cd&type=ws&host=vp1.cc.cd&path=/fp=chrome&security=tls#🇨🇦 Канада
-vless://f22856f8-66f0-4655-ba86-5385971e1302@themeforest.net:8880?&type=ws&headerType=&host=throbbing-mountain-45e9.314-df3.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net#🇨🇦 Канада
-vless://dd2952d5-2bc6-40c8-8a82-6dc00fe5105c@cloudflare-ech.com:8880?&security=false&fp=chrome&type=ws&headerType=none&host=nameless-shape-271e.321-5f5.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#🇨🇦 Канада
-vless://1a96000b-a14d-405a-b5b1-f14b9366a279@wifi1-grpc.realityanti-vpn.xyz:603?type=grpc&mode=gun&serviceName=&security=reality&fp=edge&sni=www.amd.com&pbk=WEoZRaQvvs9EYMij8-CzaMx1687u_yuk39FUMTMXACo&sid=0da0e140#🇩🇪 Германия
-vless://2d212f81-7ea2-4d0b-884c-a6497ab41143@cloudflare-ech.com:8880?host=hidden-union-a4b2.436.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&type=ws#🇺🇸 США
+vless://f3d7ebbc-03a1-40f9-a911-ae8628d3927a@codecanyon.net:8880?encryption=none&type=ws&host=dawn-waterfall-6052.360-001.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none#🌍 Anycast
+vless://1cae67cd-9f09-4c59-94e6-998ed0346c44@codecanyon.net:8880?type=ws&host=lingering-lab-91a6.54-8c3.workers.dev&path=/pyip=ProxyIP.US.CMLiussss.net#🌍 Anycast
+vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.877774.xyz:443?encryption=none&security=tls&sni=xhttp3.azadnet5000.dpdns.org&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=xhttp&host=xhttp3.azadnet5000.dpdns.org&path=%2F&mode=stream-one#🌍 Anycast
+vless://663cf772-829c-4bc6-893d-b7d021d42f5b@cf-ip-node.vov.moe:443?type=ws&security=tls&sni=vp1.cc.cd&fp=chrome&path=%2F&host=vp1.cc.cd#🌍 Anycast
+vless://663cf772-829c-4bc6-893d-b7d021d42f5b@www.leics.police.uk:443?security=tls&type=ws&path=%2F&host=vp1.cc.cd&packetEncoding=none&sni=vp1.cc.cd&fp=chrome#🌍 Anycast
+vless://663cf772-829c-4bc6-893d-b7d021d42f5b@www.leics.police.uk:443?sni=vp1.cc.cd&type=ws&host=vp1.cc.cd&path=/fp=chrome&security=tls#🌍 Anycast
+vless://f22856f8-66f0-4655-ba86-5385971e1302@themeforest.net:8880?&type=ws&headerType=&host=throbbing-mountain-45e9.314-df3.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net#🌍 Anycast
+vless://dd2952d5-2bc6-40c8-8a82-6dc00fe5105c@cloudflare-ech.com:8880?&security=false&fp=chrome&type=ws&headerType=none&host=nameless-shape-271e.321-5f5.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#🌍 Anycast
+vless://1a96000b-a14d-405a-b5b1-f14b9366a279@wifi1-grpc.realityanti-vpn.xyz:603?type=grpc&mode=gun&serviceName=&security=reality&fp=edge&sni=www.amd.com&pbk=WEoZRaQvvs9EYMij8-CzaMx1687u_yuk39FUMTMXACo&sid=0da0e140#🌍 Anycast
+vless://2d212f81-7ea2-4d0b-884c-a6497ab41143@cloudflare-ech.com:8880?host=hidden-union-a4b2.436.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&type=ws#🌍 Anycast
 
-happ://routing/onadd/eyJOYW1lIjoiWG9saXJYIFJvdXRpbmciLCJHbG9iYWxQcm94eSI6InRydWUiLCJVc2VDaHVua0ZpbGVzIjoidHJ1ZSIsIlJlbW90ZURucyI6IjguOC44LjgiLCJEb21lc3RpY0RucyI6Ijc3Ljg4LjguOCIsIlJlbW90ZUROU1R5cGUiOiJEb0giLCJSZW1vdGVETlNEb21haW4iOiJodHRwczovLzguOC44LjgvZG5zLXF1ZXJ5IiwiUmVtb3RlRE5TSVAiOiI4LjguOC44IiwiRG9tZXN0aWNETlNUeXBlIjoiRG9IIiwiRG9tZXN0aWNETlNEb21haW4iOiJodHRwczovLzc3Ljg4LjguOC9kbnMtcXVlcnkiLCJEb21lc3RpY0ROU0lQIjoiNzcuODguOC44IiwiR2VvaXB1cmwiOiJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvaHlkcmFwb25pcXVlL3Jvc2NvbXZwbi1nZW9pcEAyMDI2MDcwMjA2NDkvcmVsZWFzZS9nZW9pcC5kYXQiLCJHZW9zaXRldXJsIjoiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2h5ZHJhcG9uaXF1ZS9yb3Njb212cG4tZ2Vvc2l0ZUAyMDI2MDQxNTIyMzUvcmVsZWFzZS9nZW9zaXRlLmRhdCIsIkxhc3RVcGRhdGVkIjoiMTc4NDAyNjY2MiIsIkRuc0hvc3RzIjp7ImxrZmwyLm5hbG9nLnJ1IjoiMjEzLjI0LjY0LjE3NSIsImxrbnBkLm5hbG9nLnJ1IjoiMjEzLjI0LjY0LjE4MSJ9LCJSb3V0ZU9yZGVyIjoiYmxvY2stcHJveHktZGlyZWN0IiwiRGlyZWN0U2l0ZXMiOlsiZ2Vvc2l0ZTpwcml2YXRlIiwiZ2Vvc2l0ZTpjYXRlZ29yeS1ydSIsImdlb3NpdGU6d2hpdGVsaXN0IiwiZ2Vvc2l0ZTptaWNyb3NvZnQiLCJnZW9zaXRlOmFwcGxlIiwiZ2Vvc2l0ZTplcGljZ2FtZXMiLCJnZW9zaXRlOnJpb3QiLCJnZW9zaXRlOmVzY2FwZWZyb210YXJrb3YiLCJnZW9zaXRlOnN0ZWFtIiwiZ2Vvc2l0ZTp0d2l0Y2giLCJnZW9zaXRlOnBpbnRlcmVzdCIsImdlb3NpdGU6ZmFjZWl0Il0sIkRpcmVjdElwIjpbImdlb2lwOnByaXZhdGUiLCJnZW9pcDpkaXJlY3QiXSwiUHJveHlTaXRlcyI6WyJnZW9zaXRlOmdvb2dsZS1wbGF5IiwiZ2Vvc2l0ZTpnaXRodWIiLCJnZW9zaXRlOnR3aXRjaC1hZHMiLCJnZW9zaXRlOnlvdXR1YmUiLCJnZW9zaXRlOnRlbGVncmFtIl0sIlByb3h5SXAiOltdLCJCbG9ja1NpdGVzIjpbImdlb3NpdGU6d2luLXNweSIsImdlb3NpdGU6dG9ycmVudCIsImdlb3NpdGU6Y2F0ZWdvcnktYWRzIl0sIkJsb2NrSXAiOltdLCJEb21haW5TdHJhdGVneSI6IklQSWZOb25NYXRjaCIsIkZha2VETlMiOiJmYWxzZSJ9
+happ://routing/onadd/eyJOYW1lIjoiWG9saXJYIFJvdXRpbmciLCJHbG9iYWxQcm94eSI6InRydWUiLCJVc2VDaHVua0ZpbGVzIjoidHJ1ZSIsIlJlbW90ZURucyI6IjguOC44LjgiLCJEb21lc3RpY0RucyI6Ijc3Ljg4LjguOCIsIlJlbW90ZUROU1R5cGUiOiJEb0giLCJSZW1vdGVETlNEb21haW4iOiJodHRwczovLzguOC44LjgvZG5zLXF1ZXJ5IiwiUmVtb3RlRE5TSVAiOiI4LjguOC44IiwiRG9tZXN0aWNETlNUeXBlIjoiRG9IIiwiRG9tZXN0aWNETlNEb21haW4iOiJodHRwczovLzc3Ljg4LjguOC9kbnMtcXVlcnkiLCJEb21lc3RpY0ROU0lQIjoiNzcuODguOC44IiwiR2VvaXB1cmwiOiJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvaHlkcmFwb25pcXVlL3Jvc2NvbXZwbi1nZW9pcEAyMDI2MDcwMjA2NDkvcmVsZWFzZS9nZW9pcC5kYXQiLCJHZW9zaXRldXJsIjoiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2h5ZHJhcG9uaXF1ZS9yb3Njb212cG4tZ2Vvc2l0ZUAyMDI2MDQxNTIyMzUvcmVsZWFzZS9nZW9zaXRlLmRhdCIsIkxhc3RVcGRhdGVkIjoiMTc4NDAyODIzNSIsIkRuc0hvc3RzIjp7ImxrZmwyLm5hbG9nLnJ1IjoiMjEzLjI0LjY0LjE3NSIsImxrbnBkLm5hbG9nLnJ1IjoiMjEzLjI0LjY0LjE4MSJ9LCJSb3V0ZU9yZGVyIjoiYmxvY2stcHJveHktZGlyZWN0IiwiRGlyZWN0U2l0ZXMiOlsiZ2Vvc2l0ZTpwcml2YXRlIiwiZ2Vvc2l0ZTpjYXRlZ29yeS1ydSIsImdlb3NpdGU6d2hpdGVsaXN0IiwiZ2Vvc2l0ZTptaWNyb3NvZnQiLCJnZW9zaXRlOmFwcGxlIiwiZ2Vvc2l0ZTplcGljZ2FtZXMiLCJnZW9zaXRlOnJpb3QiLCJnZW9zaXRlOmVzY2FwZWZyb210YXJrb3YiLCJnZW9zaXRlOnN0ZWFtIiwiZ2Vvc2l0ZTp0d2l0Y2giLCJnZW9zaXRlOnBpbnRlcmVzdCIsImdlb3NpdGU6ZmFjZWl0Il0sIkRpcmVjdElwIjpbImdlb2lwOnByaXZhdGUiLCJnZW9pcDpkaXJlY3QiXSwiUHJveHlTaXRlcyI6WyJnZW9zaXRlOmdvb2dsZS1wbGF5IiwiZ2Vvc2l0ZTpnaXRodWIiLCJnZW9zaXRlOnR3aXRjaC1hZHMiLCJnZW9zaXRlOnlvdXR1YmUiLCJnZW9zaXRlOnRlbGVncmFtIl0sIlByb3h5SXAiOltdLCJCbG9ja1NpdGVzIjpbImdlb3NpdGU6d2luLXNweSIsImdlb3NpdGU6dG9ycmVudCIsImdlb3NpdGU6Y2F0ZWdvcnktYWRzIl0sIkJsb2NrSXAiOltdLCJEb21haW5TdHJhdGVneSI6IklQSWZOb25NYXRjaCIsIkZha2VETlMiOiJmYWxzZSJ9
