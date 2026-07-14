@@ -255,6 +255,8 @@ async def format_config(line, list_type):
     if '#' in line:
         base_url, fragment = line.split('#', 1)
         fragment_decoded = unquote(fragment)
+        if 'anycast' in fragment_decoded.lower():
+            return f"{base_url}#🌍 Anycast"
         flag_match = re.search(r'([\U0001F1E6-\U0001F1FF]{2})', fragment_decoded)
         if flag_match:
             flag = flag_match.group(1)
