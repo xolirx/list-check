@@ -356,7 +356,7 @@ PREMIUM_HEADERS = f"""#announce: XolirX VPN — полностью беспла�
 BLACK_STD_HEADER = STANDARD_HEADERS
 WHITE_STD_HEADER = STANDARD_HEADERS
 BLACK_PREM_HEADER = PREMIUM_HEADERS
-WHITE_PREM_HEADER = PREMIUM_HEADERS.replace("| ⚫ |", "| ⚪ |")
+WHITE_PREM_HEADER = PREMIUM_HEADERS
 
 async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_white_prem):
     black_text, white_text = await asyncio.gather(
