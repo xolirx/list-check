@@ -308,44 +308,42 @@ def generate_routing():
         logger.error(f"Routing generation error: {e}")
         return ""
 
-COLOR_PROFILE = """{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1B2EFF","subsHeaderColor":"#1E1F38FF","profileWebPageIconColor":"#00DAC5FF","selectedServerRowColor":"#2A2B4AFF","disclosureSubHeaderTextColor":"#9899B8FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#FFFFFFFF","subscriptionInfoBackgroundColor":"#1E1F38FF","backgroundColors":["#0A0B18FF","#131428FF","#0A0B18FF"],"disclosureHeaderTextColor":"#E4E4F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"light","serverRowSubTitleTextColor":"#7C7DA0FF","supportIconColor":"#00DAC5FF","topBarButtonsColor":"#E4E4F0FF","subscriptionTrafficBackgroundColor":"#1E1F38FF","subHeaderButtonColor":"#B8B9D4FF","buttonColor":"#00DAC5FF","powerIconColor":"#0A0B18FF","subscriptionInfoTextColor":"#B8B9D4FF","serverRowTitleTextColor":"#E4E4F0FF","backgroundImageType":"system","elipseColors":["#00DAC5FF","#7C5DFFFF","#FF8FABFF"],"serverRowChevronColor":"#FFFFFFFF","settingsControlsTintColor":"#00DAC5FF"}"""
+COLOR_PROFILE = """{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1020FF","subsHeaderColor":"#1A0C18FF","profileWebPageIconColor":"#DC143CFF","selectedServerRowColor":"#2A1428FF","disclosureSubHeaderTextColor":"#A0A0B0FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#DC143CFF","subscriptionInfoBackgroundColor":"#12080EFF","backgroundColors":["#080608FF","#0E0A10FF","#080608FF"],"disclosureHeaderTextColor":"#F0F0F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"dark","serverRowSubTitleTextColor":"#808090FF","supportIconColor":"#DC143CFF","topBarButtonsColor":"#F0F0F0FF","subscriptionTrafficBackgroundColor":"#1A0C18FF","subHeaderButtonColor":"#C0C0D0FF","buttonColor":"#DC143CFF","powerIconColor":"#080608FF","subscriptionInfoTextColor":"#E0E0E0FF","serverRowTitleTextColor":"#F0F0F0FF","backgroundImageType":"dark","elipseColors":["#DC143CFF","#8B0040FF","#4A0020FF"],"serverRowChevronColor":"#DC143CFF","settingsControlsTintColor":"#DC143CFF"}"""
 
-COMMON_HEADERS = f"""#profile-title: XolirX VPN
-#profile-update-interval: 12
-#subscription-auto-update-enable: 1
-#subscription-auto-update-open-enable: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240; expire=3082665600
+COMMON_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://xolirx-vpn.vercel.app/
-#subscription-ping-onopen-enabled: 0
 #ping-type: proxy
 #check-url-via-proxy: https://cp.cloudflare.com/generate_204
 #ping-result: icon
 #hide-settings: 1
 #routing-enable: 1
 #sniffing-enable: 1
-#dont-use-filter: 1
-#hide-vpn-icon: 0
 #app-auto-start: 1
-#subscriptions-collapse: 0
 #subscriptions-expand-now: 1
 #sub-expire: 1
 #sub-expire-button-link: https://t.me/xolirx
 #notification-subs-expire: 1
 #color-profile: {COLOR_PROFILE}
-#announce: XolirX VPN — полностью бесплатный сервис. Поддержка: @xolirx
+#announce: XolirX VPN — полностью бесплатный сервис. 15+ серверов, безлимитный трафик. Поддержка Happ, V2rayNG, Nekoray. Поддержка: @xolirx
 #sub-info-text: XolirX VPN — бесплатный VPN без ограничений. 15+ серверов по всему миру. Приятного использования!
-#sub-info-color: #00DAC5
+#sub-info-color: red
 #sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
 #change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+#providerid UtCAM4Ag
+#server-address-resolve-enable: 1
+#server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
+#server-address-resolve-dns-ip: 77.88.8.8
 
 """
 
 BLACK_HEADER = COMMON_HEADERS
 
-_PREFIX = "#profile-title: XolirX VPN\n"
-WHITE_HEADER = f"""#profile-title: XolirX VPN (White List)
+_PREFIX = "#profile-title: XolirX VPN | ⚫ |\n"
+WHITE_HEADER = f"""#profile-title: XolirX VPN | ⚪ |
 {COMMON_HEADERS.removeprefix(_PREFIX)}"""
 
 async def fetch_and_check(path_black, path_white):
