@@ -22,9 +22,9 @@ jobs:
         run: pip install aiohttp
 
       - name: Fetch, check, and format servers
-        run: python update_servers.py bla.txt white.txt
+        run: python update_servers.py "wi-fi(black).txt" "wi-fi(black)prem.txt" "lte(white).txt" "lte(white)prem.txt"
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update servers [skip ci]"
-          file_pattern: bla.txt white.txt
+          file_pattern: "wi-fi(black).txt wi-fi(black)prem.txt lte(white).txt lte(white)prem.txt"
