@@ -308,7 +308,7 @@ def generate_routing():
         logger.error(f"Routing generation error: {e}")
         return ""
 
-COLOR_PROFILE = """{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1020FF","subsHeaderColor":"#1A0C18FF","profileWebPageIconColor":"#DC143CFF","selectedServerRowColor":"#2A1428FF","disclosureSubHeaderTextColor":"#A0A0B0FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#DC143CFF","subscriptionInfoBackgroundColor":"#12080EFF","backgroundColors":["#080608FF","#0E0A10FF","#080608FF"],"disclosureHeaderTextColor":"#F0F0F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"dark","serverRowSubTitleTextColor":"#808090FF","supportIconColor":"#DC143CFF","topBarButtonsColor":"#F0F0F0FF","subscriptionTrafficBackgroundColor":"#1A0C18FF","subHeaderButtonColor":"#C0C0D0FF","buttonColor":"#DC143CFF","powerIconColor":"#080608FF","subscriptionInfoTextColor":"#E0E0E0FF","serverRowTitleTextColor":"#F0F0F0FF","backgroundImageType":"dark","elipseColors":["#DC143CFF","#8B0040FF","#4A0020FF"],"serverRowChevronColor":"#DC143CFF","settingsControlsTintColor":"#DC143CFF"}"""
+COLOR_PROFILE = base64.b64encode(b"""{"backgroundGradientRotationAngle":30,"serverRowBackgroundColor":"#1A1020FF","subsHeaderColor":"#1A0C18FF","profileWebPageIconColor":"#DC143CFF","selectedServerRowColor":"#2A1428FF","disclosureSubHeaderTextColor":"#A0A0B0FF","buttonTextColor":"#FFFFFFFF","buttonTimerColor":"#DC143CFF","subscriptionInfoBackgroundColor":"#12080EFF","backgroundColors":["#080608FF","#0E0A10FF","#080608FF"],"disclosureHeaderTextColor":"#F0F0F0FF","backgroundGradientColorIntensity":1,"additionalOptionsButtonColor":"#FFFFFFFF","buttonImageType":"dark","serverRowSubTitleTextColor":"#808090FF","supportIconColor":"#DC143CFF","topBarButtonsColor":"#F0F0F0FF","subscriptionTrafficBackgroundColor":"#1A0C18FF","subHeaderButtonColor":"#C0C0D0FF","buttonColor":"#DC143CFF","powerIconColor":"#080608FF","subscriptionInfoTextColor":"#E0E0E0FF","serverRowTitleTextColor":"#F0F0F0FF","backgroundImageType":"dark","elipseColors":["#DC143CFF","#8B0040FF","#4A0020FF"],"serverRowChevronColor":"#DC143CFF","settingsControlsTintColor":"#DC143CFF"}""").decode()
 
 COMMON_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #profile-update-interval: 1
@@ -322,10 +322,11 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #routing-enable: 1
 #sniffing-enable: 1
 #app-auto-start: 1
-#subscriptions-expand-now: 1
+#collapsible-subs: 1
 #sub-expire: 1
 #sub-expire-button-link: https://t.me/xolirx
 #notification-subs-expire: 1
+#sub-pin: 1
 #color-profile: {COLOR_PROFILE}
 #announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
 #sub-info-text: XolirX VPN — бесплатный VPN без ограничений. Приятного использования!
