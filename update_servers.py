@@ -327,8 +327,8 @@ COMMON_HEADERS = f"""#profile-title: XolirX VPN | ⚫ |
 #sub-expire-button-link: https://t.me/xolirx
 #notification-subs-expire: 1
 #color-profile: {COLOR_PROFILE}
-#announce: XolirX VPN — полностью бесплатный сервис. 15+ серверов, безлимитный трафик. Поддержка Happ, V2rayNG, Nekoray. Поддержка: @xolirx
-#sub-info-text: XolirX VPN — бесплатный VPN без ограничений. 15+ серверов по всему миру. Приятного использования!
+#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
+#sub-info-text: XolirX VPN — бесплатный VPN без ограничений. Приятного использования!
 #sub-info-color: red
 #sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
