@@ -6,7 +6,22 @@
 #ping-type: proxy
 #check-url-via-proxy: https://cp.cloudflare.com/generate_204
 #ping-result: icon
+#hide-settings: 1
+#routing-enable: 1
+#sniffing-enable: 1
+#app-auto-start: 1
+#subscription-pin: true
+#sub-expire: 1
+#sub-expire-button-link: https://t.me/xolirx
+#notification-subs-expire: 1
+#color-profile: base64:eyJiYWNrZ3JvdW5kR3JhZGllbnRSb3RhdGlvbkFuZ2xlIjozNy4xLCJzZXJ2ZXJSb3dCYWNrZ3JvdW5kQ29sb3IiOiIjMjEwMDNENjciLCJzdWJzSGVhZGVyQ29sb3IiOiIjNDIyOTZERkYiLCJwcm9maWxlV2ViUGFnZUljb25Db2xvciI6IiNBMkI4RkZGRiIsInNlbGVjdGVkU2VydmVyUm93Q29sb3IiOiIjM0UyRjYyQjUiLCJkaXNjbG9zdXJlU3ViSGVhZGVyVGV4dENvbG9yIjoiI0MxQzJFMkZGIiwiYnV0dG9uVGV4dENvbG9yIjoiI0ZGRkZGRkZGIiwiYnV0dG9uVGltZXJDb2xvciI6IiNGRkZGRkZGRiIsInN1YnNjcmlwdGlvbkluZm9CYWNrZ3JvdW5kQ29sb3IiOiIjMjEwMDNDRkYiLCJiYWNrZ3JvdW5kQ29sb3JzIjpbIiMzRDJBN0RGRiIsIiM2NTU3QkFGRiIsIiM5Mzc3RkY3RiJdLCJkaXNjbG9zdXJlSGVhZGVyVGV4dENvbG9yIjoiI0ZGRkZGRkZGIiwiYmFja2dyb3VuZEdyYWRpZW50Q29sb3JJbnRlbnNpdHkiOjEsImFkZGl0aW9uYWxPcHRpb25zQnV0dG9uQ29sb3IiOiIjRkZGRkZGRkYiLCJidXR0b25JbWFnZVR5cGUiOiJsaWdodCIsInNlcnZlclJvd1N1YlRpdGxlVGV4dENvbG9yIjoiI0MxQzJFMkZGIiwic3VwcG9ydEljb25Db2xvciI6IiNGRkZGRkZGRiIsInRvcEJhckJ1dHRvbnNDb2xvciI6IiNGRkZGRkZGRiIsInN1YnNjcmlwdGlvblRyYWZmaWNCYWNrZ3JvdW5kQ29sb3IiOiIjNTMzRUE3RkYiLCJzdWJIZWFkZXJCdXR0b25Db2xvciI6IiNGRkZGRkZGRiIsImJ1dHRvbkNvbG9yIjoiIzkzNzdGRkZGIiwicG93ZXJJY29uQ29sb3IiOiIjM0QyQTdERkYiLCJzdWJzY3JpcHRpb25JbmZvVGV4dENvbG9yIjoiI0ZGRkZGRkZGIiwic2VydmVyUm93VGl0bGVUZXh0Q29sb3IiOiIjRkZGRkZGRkYiLCJiYWNrZ3JvdW5kSW1hZ2VUeXBlIjoic3lzdGVtIiwiZWxpcHNlQ29sb3JzIjpbIiMwMEI0NjBGRiIsIiNDRjcyRkZFMCIsIiNGRkREMDBGRiJdLCJzZXJ2ZXJSb3dDaGV2cm9uQ29sb3IiOiIjRkZGRkZGRkYifQ==
+#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
+#sub-info-text: XolirX VPN — бесплатный VPN без ограничений. Приятного использования!
+#sub-info-color: red
+#sub-info-button-text: Канал
+#sub-info-button-link: https://t.me/vpn_by_xolirx
 #change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+#providerid TcP1jBHx
 #server-address-resolve-enable: 1
 #server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
 #server-address-resolve-dns-ip: 77.88.8.8
