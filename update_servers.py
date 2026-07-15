@@ -317,7 +317,7 @@ COLOR_PROFILE = base64.b64encode(COLOR_PROFILE_JSON.encode()).decode()
 
 STANDARD_HEADERS = f"""#announce: base64:{base64.b64encode("XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка: @xolirx".encode()).decode()}
 #profile-title: XolirX VPN
-#profile-update-interval: None
+#profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 #support-url: https://t.me/xolirx
 #profile-web-page-url: https://t.me/xolirx
