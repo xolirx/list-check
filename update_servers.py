@@ -355,7 +355,7 @@ def prem_header(title):
 
 """
 
-BLACK_STD_HEADER = std_header("XolirX VPN | BL")
+BLACK_STD_HEADER = std_header("XolirX VPN | BLACK")
 WHITE_STD_HEADER = std_header("XolirX VPN | LTE")
 BLACK_PREM_HEADER = prem_header("XolirX VPN | ⚫")
 WHITE_PREM_HEADER = prem_header("XolirX VPN | ⚪")
