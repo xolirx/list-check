@@ -348,7 +348,7 @@ def prem_header(title):
 #sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
 #change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#providerid TcP1jBHx
+#providerid VKn6TPIQ
 #server-address-resolve-enable: 1
 #server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
 #server-address-resolve-dns-ip: 77.88.8.8
