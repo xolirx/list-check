@@ -316,17 +316,17 @@ COLOR_PROFILE_JSON = """{"backgroundGradientRotationAngle":39.21265661716461,"se
 COLOR_PROFILE = base64.b64encode(COLOR_PROFILE_JSON.encode()).decode()
 
 def std_header(title):
-    return f"""#announce: base64:{base64.b64encode("XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка: @xolirx".encode()).decode()}
+    return f"""#announce: base64:{base64.b64encode("XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка: @xolirx_support_bot".encode()).decode()}
 #profile-title: {title}
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 #support-url: https://t.me/xolirx
-#profile-web-page-url: https://t.me/xolirx
+#profile-web-page-url: https://xolirx-vpn.vercel.app/
 
 """
 
 def prem_header(title):
-    return f"""#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx
+    return f"""#announce: XolirX VPN — полностью бесплатный сервис. Много серверов, безлимитный трафик. Поддержка Happ. Поддержка: @xolirx_support_bot
 #profile-title: {title}
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=5368709120; total=10737418240; expire=3085257600
