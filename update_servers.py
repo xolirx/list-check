@@ -1,4 +1,4 @@
-import asyncio, aiohttp, re, ssl, json, base64, time, logging, sys
+import asyncio, aiohttp, re, ssl, json, base64, time, logging, sys, socket
 from urllib.parse import unquote
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -6,14 +6,12 @@ logger = logging.getLogger("update_servers")
 
 VLESS_BLACK_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
 VLESS_WHITE_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
-BLACK_OUT = "bla.txt"
-WHITE_OUT = "white.txt"
 BLACK_STD_OUT = "wi-fi(black).txt"
 BLACK_PREM_OUT = "wi-fi(black)prem.txt"
 WHITE_STD_OUT = "lte(white).txt"
 WHITE_PREM_OUT = "lte(white)prem.txt"
 MAX_WORKERS = 50
-VLESS_CHECK_TIMEOUT = 3
+CHECK_TIMEOUT = 5
 MAX_RETRIES = 3
 
 COUNTRIES_RU = {
@@ -167,69 +165,87 @@ async def fetch_text(url, timeout=15):
     return None
 
 def parse_config(config):
-    for prefix in ('vless://', 'trojan://', 'hysteria2://'):
+    for prefix in ('vless://', 'trojan://', 'hysteria2://', 'VLESS://', 'TROJAN://', 'HYSTERIA2://'):
         if config.startswith(prefix):
             rest = config[len(prefix):]
             break
     else:
         return None
-    if '@' not in rest:
+    if '@' in rest:
+        parts = rest.rsplit('@', 1)
+        addr_part = parts[1]
+    else:
+        addr_part = rest
+    if '#' in addr_part:
+        addr_part = addr_part.split('#')[0]
+    if '?' in addr_part:
+        addr_part = addr_part.split('?')[0]
+    if addr_part.startswith('['):
+        ipv6_match = re.match(r'^\[(.+)\]:(\d+)$', addr_part)
+        if ipv6_match:
+            return {'address': ipv6_match.group(1), 'port': int(ipv6_match.group(2))}
         return None
-    parts = rest.split('@')
-    if len(parts) != 2:
-        return None
-    uuid = parts[0]
-    addr_part = parts[1]
     if ':' not in addr_part:
         return None
     addr_parts = addr_part.split(':')
     if len(addr_parts) < 2:
         return None
     address = addr_parts[0]
-    port_segment = addr_parts[1]
-    port_match = re.match(r'^(\d+)', port_segment)
+    port_match = re.match(r'^(\d+)', addr_parts[1])
     if not port_match:
         return None
-    port = int(port_match.group(1))
-    params = {}
-    if '?' in port_segment:
-        params_str = port_segment.split('?')[1]
-        if '#' in params_str:
-            params_str = params_str.split('#')[0]
-        for param in params_str.split('&'):
-            if '=' in param:
-                key, value = param.split('=', 1)
-                params[key] = value
-    return {'uuid': uuid, 'address': address, 'port': port, 'params': params}
+    return {'address': address, 'port': int(port_match.group(1))}
 
 async def check_server(parsed):
     address = parsed["address"]
     port = parsed["port"]
     for use_ssl in [False, True]:
+        writer = None
         try:
             ctx = ssl.create_default_context() if use_ssl else None
             if ctx:
                 ctx.check_hostname = False
                 ctx.verify_mode = ssl.CERT_NONE
-            reader, writer = await asyncio.wait_for(
+            _, writer = await asyncio.wait_for(
                 asyncio.open_connection(address, port, ssl=ctx),
-                timeout=VLESS_CHECK_TIMEOUT
+                timeout=CHECK_TIMEOUT
             )
-            writer.close()
-            await writer.wait_closed()
             return True
         except Exception:
             continue
+        finally:
+            if writer:
+                try:
+                    writer.close()
+                    await writer.wait_closed()
+                except Exception:
+                    pass
     return False
+
+async def resolve_domains(domains):
+    if not domains:
+        return {}
+    loop = asyncio.get_event_loop()
+    resolved = {}
+    for domain in domains:
+        try:
+            addrs = await loop.getaddrinfo(domain, None, type=socket.SOCK_STREAM)
+            for family, type_, proto, canonname, sockaddr in addrs:
+                ip = sockaddr[0]
+                resolved[domain] = ip
+                break
+        except Exception as e:
+            logger.debug(f"DNS resolve failed for {domain}: {e}")
+    return resolved
 
 async def batch_detect_country(ips):
     if not ips:
         return {}
     results = {}
-    for batch_start in range(0, len(ips), 100):
-        batch = ips[batch_start:batch_start + 100]
-        try:
-            async with aiohttp.ClientSession() as sess:
+    async with aiohttp.ClientSession() as sess:
+        for batch_start in range(0, len(ips), 100):
+            batch = ips[batch_start:batch_start + 100]
+            try:
                 async with sess.post(
                     "http://ip-api.com/batch?fields=status,country,countryCode,query",
                     json=[{"query": ip} for ip in batch],
@@ -249,18 +265,24 @@ async def batch_detect_country(ips):
                                 results[ip] = (country, flag)
                             else:
                                 results[ip] = ("Anycast", "🌍")
-        except Exception as e:
-            logger.warning(f"IP batch failed: {e}")
-            for ip in batch:
-                results[ip] = ("Anycast", "🌍")
+            except Exception as e:
+                logger.warning(f"IP batch failed: {e}")
+                for ip in batch:
+                    results[ip] = ("Anycast", "🌍")
     return results
+
+def is_ipv4(address):
+    return re.match(r'^\d+\.\d+\.\d+\.\d+$', address) is not None
+
+def is_ipv6(address):
+    return ':' in address
 
 async def format_config(line, list_type):
     if '#' in line:
         base_url, fragment = line.split('#', 1)
         fragment_decoded = unquote(fragment)
         if 'anycast' in fragment_decoded.lower():
-            return f"{base_url}#🌍 Anycast"
+            return f"{base_url}#Обход XOL"
         flag_match = re.search(r'([\U0001F1E6-\U0001F1FF]{2})', fragment_decoded)
         if flag_match:
             flag = flag_match.group(1)
@@ -271,19 +293,19 @@ async def format_config(line, list_type):
             for eng, ru in COUNTRIES_RU.items():
                 if eng in rest.lower() or rest.lower() in eng:
                     return f"{base_url}#{flag} {ru}"
-            return f"{base_url}#{flag} {rest if rest else 'Anycast'}"
+            return f"{base_url}#{flag} {rest if rest else 'Обход XOL'}"
     else:
         base_url = line
     parsed = parse_config(line)
-    if parsed and re.match(r'^\d+\.\d+\.\d+\.\d+$', parsed['address']):
-        ip = parsed['address']
-        if ip in GEO_CACHE:
-            country, flag = GEO_CACHE[ip]
+    if parsed:
+        address = parsed['address']
+        if address in GEO_CACHE:
+            country, flag = GEO_CACHE[address]
         else:
             country, flag = "Anycast", "🌍"
         if country != "Anycast":
             return f"{base_url}#{flag} {country}"
-    return f"{base_url}#🌍 Anycast"
+    return f"{base_url}#Обход XOL"
 
 def generate_routing():
     try:
@@ -348,7 +370,7 @@ def prem_header(title):
 #sub-info-button-text: Канал
 #sub-info-button-link: https://t.me/vpn_by_xolirx
 #change-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#providerid VKn6TPIQ
+#providerid: VKn6TPIQ
 #server-address-resolve-enable: 1
 #server-address-resolve-dns-domain: https://common.dot.dns.yandex.net/dns-query
 #server-address-resolve-dns-ip: 77.88.8.8
@@ -360,6 +382,16 @@ WHITE_STD_HEADER = std_header("XolirX VPN | LTE")
 BLACK_PREM_HEADER = prem_header("XolirX VPN | ⚫")
 WHITE_PREM_HEADER = prem_header("XolirX VPN | ⚪")
 
+async def write_file(path, content, label, kind):
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        logger.info(f"{label} {kind} saved to {path}")
+        return True
+    except OSError as e:
+        logger.error(f"Failed to write {path}: {e}")
+        return False
+
 async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_white_prem):
     black_text, white_text = await asyncio.gather(
         fetch_text(VLESS_BLACK_URL),
@@ -367,6 +399,10 @@ async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_
     )
 
     results = []
+    semaphore = asyncio.Semaphore(MAX_WORKERS)
+    async def check_one(parsed):
+        async with semaphore:
+            return await check_server(parsed)
 
     for source_text, label, protocols in [
         (black_text, "Black", ["vless://"]),
@@ -382,7 +418,7 @@ async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_
             if stripped.startswith("#") or not stripped:
                 continue
             for proto in protocols:
-                if stripped.startswith(proto):
+                if stripped.lower().startswith(proto):
                     candidates.append(stripped)
                     break
         if not candidates:
@@ -396,10 +432,6 @@ async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_
             if parsed:
                 parsed_list.append((line, parsed))
         logger.info(f"{label}: {len(parsed_list)} parsed")
-        semaphore = asyncio.Semaphore(MAX_WORKERS)
-        async def check_one(parsed):
-            async with semaphore:
-                return await check_server(parsed)
         tasks = [check_one(parsed) for _, parsed in parsed_list]
         check_results = await asyncio.gather(*tasks, return_exceptions=True)
         working_lines = []
@@ -415,9 +447,39 @@ async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_
             logger.error(f"No working {label} servers")
             results.append(False)
             continue
-        ip_list = [p['address'] for p in working_parsed if re.match(r'^\d+\.\d+\.\d+\.\d+$', p['address'])]
+
+        seen = set()
+        unique_lines = []
+        unique_parsed = []
+        for line, parsed in zip(working_lines, working_parsed):
+            key = (parsed['address'], parsed['port'])
+            if key not in seen:
+                seen.add(key)
+                unique_lines.append(line)
+                unique_parsed.append(parsed)
+        working_lines, working_parsed = unique_lines, unique_parsed
+        logger.info(f"{label}: {len(working_lines)} unique after dedup")
+
+        ip_list = []
+        domain_list = []
+        for p in working_parsed:
+            addr = p['address']
+            if is_ipv4(addr):
+                ip_list.append(addr)
+            elif is_ipv6(addr):
+                ip_list.append(addr)
+            else:
+                domain_list.append(addr)
+
+        if domain_list:
+            dns_map = await resolve_domains(list(set(domain_list)))
+            for domain, ip in dns_map.items():
+                if ip not in GEO_CACHE:
+                    ip_list.append(ip)
+
         ip_geo = await batch_detect_country(list(set(ip_list)))
         GEO_CACHE.update(ip_geo)
+
         formatted_lines = []
         for line in working_lines:
             try:
@@ -428,21 +490,19 @@ async def fetch_and_check(path_black_std, path_black_prem, path_white_std, path_
         clean_content = "\n".join(formatted_lines)
         routing_link = generate_routing()
 
-        std_header = BLACK_STD_HEADER if label == "Black" else WHITE_STD_HEADER
-        prem_header = BLACK_PREM_HEADER if label == "Black" else WHITE_PREM_HEADER
-
+        std_hdr = BLACK_STD_HEADER if label == "Black" else WHITE_STD_HEADER
+        prem_hdr = BLACK_PREM_HEADER if label == "Black" else WHITE_PREM_HEADER
         std_path = path_black_std if label == "Black" else path_white_std
         prem_path = path_black_prem if label == "Black" else path_white_prem
 
-        std_content = std_header + clean_content + "\n\n" + routing_link
-        with open(std_path, "w", encoding="utf-8") as f:
-            f.write(std_content)
-        logger.info(f"{label} standard saved to {std_path}")
-
-        prem_content = prem_header + clean_content + "\n\n" + routing_link
-        with open(prem_path, "w", encoding="utf-8") as f:
-            f.write(prem_content)
-        logger.info(f"{label} premium saved to {prem_path}")
+        ok1 = await write_file(std_path, std_hdr + clean_content + "\n\n" + routing_link, label, "standard")
+        if not ok1:
+            results.append(False)
+            continue
+        ok2 = await write_file(prem_path, prem_hdr + clean_content + "\n\n" + routing_link, label, "premium")
+        if not ok2:
+            results.append(False)
+            continue
 
         results.append(True)
 
