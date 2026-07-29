@@ -828,10 +828,11 @@
     "subscribed": true,
     "date": "2026-07-29 21:30:17.561944",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 21:30:34.470388"
+    "last_update": "2026-07-29 21:32:28.147755"
   }
 }
