@@ -387,8 +387,18 @@
     "profiles": [
       "lte"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V2K9r"
+    },
     "generations": 0,
     "last_update": "2026-07-29 19:27:17.755937"
+  },
+  "5420416166": {
+    "terms": false,
+    "subscribed": false,
+    "date": "2026-07-29 19:27:48.110375",
+    "profiles": [],
+    "links": {},
+    "generations": 0
   }
 }
