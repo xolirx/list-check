@@ -6,8 +6,10 @@
     "profiles": [
       "black"
     ],
-    "links": {},
-    "generations": 0,
+    "links": {
+      "black": "https://clck.ru/3V2J3U"
+    },
+    "generations": 1,
     "last_update": "2026-07-29 18:32:46.697211"
   }
 }
