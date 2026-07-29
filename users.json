@@ -737,9 +737,9 @@
     "last_update": "2026-07-29 20:52:07.366844"
   },
   "5700129022": {
-    "terms": false,
+    "terms": true,
     "subscribed": true,
-    "date": "2026-07-29 20:53:00.047938",
+    "date": "2026-07-29 20:53:15.540372",
     "profiles": [],
     "links": {},
     "generations": 0
