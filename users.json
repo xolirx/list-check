@@ -592,9 +592,12 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-29 20:00:09.247167",
-    "profiles": [],
+    "profiles": [
+      "black"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-29 20:00:28.598651"
   },
   "8644165935": {
     "terms": false,
