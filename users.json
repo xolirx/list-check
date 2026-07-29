@@ -577,11 +577,12 @@
     "subscribed": true,
     "date": "2026-07-29 19:56:23.297895",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 19:57:09.227684"
+    "last_update": "2026-07-29 20:18:18.111206"
   },
   "6623799158": {
     "terms": true,
