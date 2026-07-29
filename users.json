@@ -553,13 +553,14 @@
     "subscribed": true,
     "date": "2026-07-29 19:42:11.049019",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
       "black": "https://clck.ru/3V2KQt"
     },
     "generations": 0,
-    "last_update": "2026-07-29 19:42:30.845122"
+    "last_update": "2026-07-29 20:21:14.318968"
   },
   "5467008069": {
     "terms": true,
