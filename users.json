@@ -509,9 +509,12 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-29 19:39:28.561380",
-    "profiles": [],
+    "profiles": [
+      "black"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-29 19:39:45.684596"
   },
   "391435959": {
     "terms": true,
