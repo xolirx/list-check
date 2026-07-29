@@ -872,10 +872,11 @@
     "subscribed": true,
     "date": "2026-07-29 23:23:41.906386",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 23:24:13.842206"
+    "last_update": "2026-07-29 23:27:07.662532"
   }
 }
