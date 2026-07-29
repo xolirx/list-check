@@ -783,8 +783,11 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-29 21:14:40.102522",
-    "profiles": [],
+    "profiles": [
+      "lte"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-29 21:14:55.920510"
   }
 }
