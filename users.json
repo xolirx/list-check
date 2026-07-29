@@ -671,10 +671,11 @@
     "subscribed": true,
     "date": "2026-07-29 20:13:30.342461",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 20:13:50.795056"
+    "last_update": "2026-07-29 20:14:00.059836"
   }
 }
