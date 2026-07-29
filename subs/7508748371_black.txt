@@ -5,13 +5,6 @@
 #support-url: https://t.me/GhostShield_Support
 #profile-web-page-url: https://t.me/GhostShield
 
-#profile-title: GhostShield VPN | BLACK
-#announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogV2ktRmkK0JHQtdC3INC+0LPRgNCw0L3QuNGH0LXQvdC40Y8g0YLRgNCw0YTQuNC60LAsINC+0LHQvdC+0LLQu9C10L3QuNC1INC60LDQttC00YvQuSDRh9Cw0YEK0J/QvtC00LTQtdGA0LbQutCwIC0gQEdob3N0U2hpZWxkX1N1cHBvcnQ=
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=0
-#support-url: https://t.me/GhostShield_Support
-#profile-web-page-url: https://t.me/GhostShield
-
 vless://6af3672b-8994-4cf1-aa15-23ce6574ebf0@lb1.auragg.org:25004?encryption=none&type=grpc&security=reality&sni=cloudflare.com&fp=qq&pbk=4iK2MvJODGj37OQE588278o4abt70zkFZzmQJg47NiA&sid=a3d8f1e9b2c7d4e6&path=auragrpc&serviceName=auragrpc&mode=gun&multiMode=false#🇦🇱 Албания
 vless://c7e9c591-2764-423a-afca-efbd010fd396@89.111.172.106:2053?encryption=none&security=tls&sni=forfreeuse.sub-flow.online&type=ws&host=forfreeuse.sub-flow.online&path=%2F&allowInsecure=0&insecure=0&fp=chrome#🇫🇮 Финляндия
 vless://c7e9c591-2764-423a-afca-efbd010fd396@31.133.0.159:2053?fp=chrome&host=forfreeuse.sub-flow.online&path=%2F&security=tls&sni=forfreeuse.sub-flow.online&type=ws#🇫🇮 Финляндия
