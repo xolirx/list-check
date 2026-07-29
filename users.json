@@ -45,7 +45,9 @@
     "profiles": [
       "lte"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V2Jv3"
+    },
     "generations": 0,
     "last_update": "2026-07-29 19:14:37.025689"
   },
@@ -77,6 +79,14 @@
     "terms": false,
     "subscribed": true,
     "date": "2026-07-29 19:14:28.432235",
+    "profiles": [],
+    "links": {},
+    "generations": 0
+  },
+  "807362434": {
+    "terms": false,
+    "subscribed": false,
+    "date": "2026-07-29 19:14:40.687096",
     "profiles": [],
     "links": {},
     "generations": 0
