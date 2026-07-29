@@ -852,10 +852,11 @@
     "subscribed": true,
     "date": "2026-07-29 22:49:37.937135",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 22:50:05.615179"
+    "last_update": "2026-07-29 22:51:19.588292"
   }
 }
