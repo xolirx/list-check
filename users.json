@@ -535,8 +535,11 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-29 19:41:23.566564",
-    "profiles": [],
+    "profiles": [
+      "lte"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-29 19:41:41.816323"
   }
 }
