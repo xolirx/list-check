@@ -4,13 +4,14 @@
     "subscribed": true,
     "date": "2026-07-29 18:32:21.166401",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
       "black": "https://clck.ru/3V2Jg2"
     },
     "generations": 2,
-    "last_update": "2026-07-29 19:00:41.917071"
+    "last_update": "2026-07-29 23:36:10.195419"
   },
   "7508748371": {
     "terms": true,
@@ -605,7 +606,7 @@
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 20:00:28.598651"
+    "last_update": "2026-07-29 23:32:23.348724"
   },
   "8644165935": {
     "terms": false,
@@ -857,7 +858,7 @@
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 22:51:19.588292"
+    "last_update": "2026-07-29 23:32:52.184966"
   },
   "125325944": {
     "terms": false,
