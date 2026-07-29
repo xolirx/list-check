@@ -370,12 +370,13 @@
     "subscribed": true,
     "date": "2026-07-29 19:25:18.556767",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
       "black": "https://clck.ru/3V2K8R"
     },
     "generations": 0,
-    "last_update": "2026-07-29 19:25:35.907862"
+    "last_update": "2026-07-29 19:26:47.724814"
   }
 }
