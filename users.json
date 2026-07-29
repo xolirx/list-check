@@ -129,9 +129,12 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-29 19:15:45.482960",
-    "profiles": [],
+    "profiles": [
+      "lte"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-29 19:16:21.522282"
   },
   "7578638871": {
     "terms": false,
