@@ -707,10 +707,11 @@
     "subscribed": true,
     "date": "2026-07-29 20:35:01.598484",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 20:35:19.551706"
+    "last_update": "2026-07-29 20:37:52.904297"
   }
 }
