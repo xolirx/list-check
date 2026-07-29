@@ -344,13 +344,14 @@
     "subscribed": true,
     "date": "2026-07-29 19:23:43.838012",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
       "black": "https://clck.ru/3V2K6s"
     },
     "generations": 0,
-    "last_update": "2026-07-29 19:24:15.248571"
+    "last_update": "2026-07-29 19:32:15.241925"
   },
   "6964664306": {
     "terms": true,
