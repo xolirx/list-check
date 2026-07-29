@@ -648,10 +648,11 @@
     "subscribed": true,
     "date": "2026-07-29 20:07:24.995077",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-29 20:07:40.603995"
+    "last_update": "2026-07-29 20:10:00.681371"
   }
 }
