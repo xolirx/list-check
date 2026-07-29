@@ -442,9 +442,12 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-29 19:32:48.216572",
-    "profiles": [],
+    "profiles": [
+      "black"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-29 19:33:34.748828"
   },
   "6129680601": {
     "terms": true,
