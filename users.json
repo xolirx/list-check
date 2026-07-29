@@ -15,7 +15,7 @@
   },
   "7508748371": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "2026-07-29 18:53:45.677982",
     "profiles": [
       "black"
@@ -879,5 +879,13 @@
     "links": {},
     "generations": 0,
     "last_update": "2026-07-29 23:27:07.662532"
+  },
+  "6988268666": {
+    "terms": false,
+    "subscribed": false,
+    "date": "2026-07-29 23:53:04.224412",
+    "profiles": [],
+    "links": {},
+    "generations": 0
   }
 }
