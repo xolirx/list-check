@@ -331,7 +331,9 @@
     "profiles": [
       "black"
     ],
-    "links": {},
+    "links": {
+      "black": "https://clck.ru/3V2K6e"
+    },
     "generations": 0,
     "last_update": "2026-07-29 19:24:05.490309"
   },
