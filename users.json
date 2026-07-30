@@ -1194,10 +1194,11 @@
     "subscribed": true,
     "date": "2026-07-30 09:40:56.571145",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 09:41:10.308824"
+    "last_update": "2026-07-30 09:44:52.109550"
   }
 }
