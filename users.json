@@ -1234,7 +1234,7 @@
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 15:14:04.360773"
+    "last_update": "2026-07-30 10:46:25.905458"
   },
   "5788434266": {
     "terms": true,
@@ -1257,7 +1257,7 @@
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 13:27:34.218647"
+    "last_update": "2026-07-30 15:14:24.540852"
   },
   "5617656698": {
     "terms": true,
@@ -1283,11 +1283,10 @@
     "subscribed": true,
     "date": "2026-07-30 15:11:00.951587",
     "profiles": [
-      "lte",
-      "black"
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 15:14:04.794305"
+    "last_update": "2026-07-30 15:11:20.589858"
   }
 }
