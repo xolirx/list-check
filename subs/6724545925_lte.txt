@@ -4,5 +4,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 
-vless://a8f84171-5f96-4547-b621-59758fe668c8@node-tw0.omhvp.co:443?type=tcp&headerType=none&security=reality&encryption=none&sni=cs10210.vk.com&fp=firefox&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&spx=%2F&flow=xtls-rprx-vision#
-vless://a8f84171-5f96-4547-b621-59758fe668c8@node-tw0.omhvp.co:443?type=tcp&headerType=none&security=reality&encryption=none&sni=cs10210.vk.com&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&spx=%2F&flow=xtls-rprx-vision&fp=safari#
+vless://a8f84171-5f96-4547-b621-59758fe668c8@node-tw0.omhvp.co:443?type=tcp&headerType=none&security=reality&encryption=none&sni=cs10210.vk.com&fp=firefox&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&spx=%2F&flow=xtls-rprx-vision#Подпишись
+vless://a8f84171-5f96-4547-b621-59758fe668c8@node-tw0.omhvp.co:443?type=tcp&headerType=none&security=reality&encryption=none&sni=cs10210.vk.com&fp=safari&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&spx=%2F&flow=xtls-rprx-vision#На канал
