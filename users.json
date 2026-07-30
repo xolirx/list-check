@@ -1048,10 +1048,11 @@
     "subscribed": true,
     "date": "2026-07-30 06:09:25.447622",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 06:10:13.783532"
+    "last_update": "2026-07-30 06:10:52.763745"
   }
 }
