@@ -984,10 +984,11 @@
     "subscribed": true,
     "date": "2026-07-30 03:45:11.351830",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 03:45:28.884979"
+    "last_update": "2026-07-30 03:46:54.749954"
   }
 }
