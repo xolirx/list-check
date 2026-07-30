@@ -1,11 +1,4 @@
 #profile-title: GhostShield VPN | LTE
-#announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogTFRFCtCR0LXQtyDQvtCz0YDQsNC90LjRh9C10L3QuNGPINGC0YDQsNGE0LjQutCwLCDQvtCx0L3QvtCy0LvQtdC90LjQtSDQutCw0LbQtNGL0Lkg0YfQsNGBCtC/0L7QtNC00LXRgNC20LrQsCAtIEBHaG9zdFNoaWVsZF9TdXBwb3J0
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=0
-#support-url: https://t.me/GhostShield_Support
-#profile-web-page-url: https://t.me/GhostShield
-
-#profile-title: GhostShield VPN | LTE
 #announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogTFRFCtCR0LXQtyDQvtCz0YDQsNC90LjRh9C10L3QuNGPINGC0YDQsNGE0LjQutCwCtCf0L7QtNC00LXRgNC20LrQsCAtIEBHaG9zdFNoaWVsZF9TdXBwb3J0
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
