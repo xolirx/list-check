@@ -11,7 +11,8 @@
       "black": "https://clck.ru/3V2Jg2"
     },
     "generations": 2,
-    "last_update": "2026-07-30 13:21:55.328442"
+    "last_update": "2026-07-30 13:21:55.328442",
+    "pinned": true
   },
   "7508748371": {
     "terms": true,
@@ -1340,6 +1341,15 @@
   "8865753143": {
     "terms": false,
     "subscribed": true,
+    "date": "",
+    "profiles": [],
+    "links": {},
+    "generations": 0,
+    "pinned": false
+  },
+  "5133712779": {
+    "terms": false,
+    "subscribed": false,
     "date": "",
     "profiles": [],
     "links": {},
