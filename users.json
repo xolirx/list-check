@@ -1240,10 +1240,11 @@
     "subscribed": true,
     "date": "2026-07-30 12:14:47.219548",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 12:15:01.333605"
+    "last_update": "2026-07-30 12:15:10.942436"
   }
 }
