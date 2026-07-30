@@ -997,10 +997,11 @@
     "subscribed": true,
     "date": "2026-07-30 05:04:40.391610",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 05:05:10.402774"
+    "last_update": "2026-07-30 05:22:55.097419"
   }
 }
