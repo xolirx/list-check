@@ -1,0 +1,39 @@
+#profile-title: GhostShield VPN | LTE
+#announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogTFRFCtCR0LXQtyDQvtCz0YDQsNC90LjRh9C10L3QuNGPINGC0YDQsNGE0LjQutCwCtCf0L7QtNC00LXRgNC20LrQsCAtIEBHaG9zdFNoaWVsZF9TdXBwb3J0
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
+#support-url: https://t.me/GhostShield_Support
+#profile-web-page-url: https://t.me/GhostShield
+
+vless://6556ea2e-494c-4c5f-8821-31a6efc2e916@87.242.85.201:13561?encryption=none&security=none&type=raw#🇷🇺 Russia
+vless://16785a51-045d-4939-8969-4869f469ff92@81.163.23.185:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=chrome#🇪🇪 Эстония
+vless://c7e9c591-2764-423a-afca-efbd010fd396@89.111.172.106:2053?encryption=none&security=tls&sni=forfreeuse.sub-flow.online&type=ws&host=forfreeuse.sub-flow.online&path=%2F&allowInsecure=0&insecure=0&fp=chrome#🇫🇮 Финляндия
+vless://d615de65-1899-4e1b-a0b1-09b884f0f66a@194.87.104.175:2053?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=rkn.chillvpn.work&pbk=euCADnn97RjjJpABi3wEm81-Ot6TDtg_S35BbQYQSXs&fp=firefox#🇫🇮 Финляндия
+vless://16785a51-045d-4939-8969-4869f469ff92@81.163.23.243:8443?encryption=none&mode=gun&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&security=reality&serviceName=ns&sni=id.pervye.ru&type=grpc&fp=chrome#🇩🇪 Германия
+vless://a3a34b58-14b4-0012-a555-8752f7694916@46.8.209.229:8443?encryption=none&flow=xtls-rprx-vision&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=rutube.ru&type=tcp&fp=edge#🇩🇪 Германия
+vless://218fd696-e3a2-4c33-b397-a5f13a82969e@157.22.241.152:7443?security=reality&type=grpc&sni=icloud.com&pbk=P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js&serviceName=grpc&sid=89136b6e&fp=edge#🇩🇪 Германия
+vless://7a30eabc-aee8-4cd3-833a-5fc13f0015d2@176.123.165.127:12672?type=tcp&security=none&encryption=none#🇩🇪 Германия
+vless://7a30eabc-aee8-4cd3-833a-5fc13f0015d2@176.123.165.127:56745?type=tcp&security=none&encryption=none#🇩🇪 Германия
+vless://7a30eabc-aee8-4cd3-833a-5fc13f0015d2@176.123.165.127:57836?encryption=none&security=none&type=tcp#🇩🇪 Германия
+vless://84dc79c7-e443-489d-bf07-b4bb825f57d9@ru-de.apruxdomain.xyz:80?type=ws#🇩🇪 Германия
+vless://01b4e1af-bfe6-476e-af87-4fbad86bdc28@5.188.115.69:443?alpn=http%2F1.1&encryption=none&path=%2Fws&security=tls&sni=amogus.razkur.dev&type=ws&fp=chrome#🇩🇪 Германия
+vless://218fd696-e3a2-4c33-b397-a5f13a82969e@46.8.220.182:443?encryption=none&mode=gun&pbk=vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8&security=reality&serviceName=grpc&sid=3303c7a5&sni=media2.tcpdoor.net&type=grpc&fp=chrome#🇩🇪 Германия
+vless://95d4c83e-20ec-4dc3-ba3f-ae48283bea34@37.9.4.224:443?encryption=none&flow=xtls-rprx-vision&pbk=uL4x8EbCl080G43kFlv8nbpEyseWi1Dc_bl8F7lWtm8&security=reality&sid=aa03ec59c9695e91&sni=wl-2-1.legendary.ac&type=raw&fp=edge#🇩🇪 Германия
+vless://95d4c83e-20ec-4dc3-ba3f-ae48283bea34@62.152.58.114:443?encryption=none&flow=xtls-rprx-vision&pbk=jAJoyWJ4nMGai3H9BOa6QMUr2Vvpgqs8VipbaO5mCVU&security=reality&sid=3130197867c23edb&sni=wl-13-1.nodes.ac&type=raw&fp=ios#🇩🇪 Германия
+vless://a8f84171-5f96-4547-b621-59758fe668c8@node-tw0.omhvp.co:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&sni=www.eni.com&spx=%2F&fp=chrome#🇮🇹 Италия
+vless://a8f84171-5f96-4547-b621-59758fe668c8@94.126.206.121:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw&sid=7a5b89ecdb01f781&sni=cs10210.vk.com&spx=%2F&fp=edge#🇵🇱 Польша
+vless://8758d97c-0c85-4177-8cb7-edd633780ac3@194.55.239.90:443?encryption=none&mode=gun&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&security=reality&serviceName=5post.gate.v1&sid=abcd&sni=5post-gate.x5.ru&type=grpc&fp=chrome#🇸🇪 Швеция
+vless://95d4c83e-20ec-4dc3-ba3f-ae48283bea34@62.152.56.73:443?encryption=none&flow=xtls-rprx-vision&pbk=lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg&security=reality&sid=cf43c0c197cd464a&sni=wl-12.nodes.ac&type=raw&fp=chrome#🇳🇱 Нидерланды
+vless://0d7d959f-5498-457e-aee7-fd16b1f3e77d@158.160.207.45:29444?encryption=none&flow=xtls-rprx-vision&pbk=b7L2qrpKuFSOVFNY9A-Phylorw1DuteAetgS5ipERyA&security=reality&sid=2749d73d715730e1&sni=www.twitch.tv&type=raw&fp=android#🇳🇱 Нидерланды
+vless://884d811f-577b-421e-aabb-608660b0ecfa@94.159.117.66:9894?encryption=none&mode=gun&pbk=Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0&security=reality&serviceName=grpc-tunnel&sid=aabb&sni=dl.google.com&type=grpc&fp=chrome#🇳🇱 Нидерланды
+vless://52745f29-d8da-4cb7-9f95-401b946524e7@46.8.18.48:16923?encryption=none&type=grpc&serviceName=neurex&security=reality&sni=cloud.yandex.ru&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986&fp=chrome#🇷🇺 Россия
+vless://a03df445-0666-4d61-acde-9705009e409c@84.201.163.47:443?encryption=none&flow=xtls-rprx-vision&pbk=FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ&security=reality&sid=27e53bbcab7593d7&sni=5post-gate.x5.ru&spx=%2F&type=raw&fp=edge#🇷🇺 Россия
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@82.117.87.248:2053?sni=fi-one.quiet-rogue.site#🇫🇮 Финляндия
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@82.117.87.248:8443?sni=de-two.quiet-rogue.site#🇩🇪 Германия
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@82.117.87.248:2096?sni=it-one.quiet-rogue.site#🇮🇹 Италия
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@82.117.87.248:2083?sni=swe-one.quiet-rogue.site#🇸🇪 Швеция
+hysteria2://71cada65-d23e-418c-88e4-a06188d14689@82.117.87.248:443?sni=nl-one.quiet-rogue.site#🇳🇱 Нидерланды
+hysteria2://9b08bee0-2615-46c6-8939-54b575517a26@78.159.250.230:8443?sni=quic.tyr-agentstvo.tech#🇵🇰 Авто-обход | Пакистан
+trojan://521314@45.67.215.9:443?security=tls&sni=tjplay.lxdxo.kdns.fr&type=ws&path=%2FTelegram%2B%40VPNine1&fp=android#🇦🇪 Авто-обход | ОАЭ
+
+happ://routing/onadd/eyJOYW1lIjoiR2hvc3RTaGllbGQiLCJHbG9iYWxQcm94eSI6InRydWUiLCJVc2VDaHVua0ZpbGVzIjoidHJ1ZSIsIlJlbW90ZURucyI6IjguOC44LjgiLCJEb21lc3RpY0RucyI6Ijc3Ljg4LjguOCIsIlJlbW90ZUROU1R5cGUiOiJEb0giLCJSZW1vdGVETlNEb21haW4iOiJodHRwczovLzguOC44LjgvZG5zLXF1ZXJ5IiwiUmVtb3RlRE5TSVAiOiI4LjguOC44IiwiRG9tZXN0aWNETlNUeXBlIjoiRG9IIiwiRG9tZXN0aWNETlNEb21haW4iOiJodHRwczovLzc3Ljg4LjguOC9kbnMtcXVlcnkiLCJEb21lc3RpY0ROU0lQIjoiNzcuODguOC44IiwiR2VvaXB1cmwiOiJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvaHlkcmFwb25pcXVlL3Jvc2NvbXZwbi1nZW9pcEBsYXRlc3QvcmVsZWFzZS9nZW9pcC5kYXQiLCJHZW9zaXRldXJsIjoiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2h5ZHJhcG9uaXF1ZS9yb3Njb212cG4tZ2Vvc2l0ZUBsYXRlc3QvcmVsZWFzZS9nZW9zaXRlLmRhdCIsIkxhc3RVcGRhdGVkIjoiMTc4NTQzMTg1NSIsIkRuc0hvc3RzIjp7ImxrZmwyLm5hbG9nLnJ1IjoiMjEzLjI0LjY0LjE3NSIsImxrbnBkLm5hbG9nLnJ1IjoiMjEzLjI0LjY0LjE4MSJ9LCJSb3V0ZU9yZGVyIjoiYmxvY2stcHJveHktZGlyZWN0IiwiRGlyZWN0U2l0ZXMiOlsiZ2Vvc2l0ZTpwcml2YXRlIiwiZ2Vvc2l0ZTpjYXRlZ29yeS1ydSIsImdlb3NpdGU6d2hpdGVsaXN0IiwiZ2Vvc2l0ZTptaWNyb3NvZnQiLCJnZW9zaXRlOmFwcGxlIiwiZ2Vvc2l0ZTplcGljZ2FtZXMiLCJnZW9zaXRlOnJpb3QiLCJnZW9zaXRlOmVzY2FwZWZyb210YXJrb3YiLCJnZW9zaXRlOnN0ZWFtIiwiZ2Vvc2l0ZTp0d2l0Y2giLCJnZW9zaXRlOnBpbnRlcmVzdCIsImdlb3NpdGU6ZmFjZWl0Il0sIkRpcmVjdElwIjpbImdlb2lwOnByaXZhdGUiLCJnZW9pcDpkaXJlY3QiXSwiUHJveHlTaXRlcyI6WyJnZW9zaXRlOmdvb2dsZS1wbGF5IiwiZ2Vvc2l0ZTpnaXRodWIiLCJnZW9zaXRlOnR3aXRjaC1hZHMiLCJnZW9zaXRlOnlvdXR1YmUiLCJnZW9zaXRlOnRlbGVncmFtIl0sIlByb3h5SXAiOltdLCJCbG9ja1NpdGVzIjpbImdlb3NpdGU6d2luLXNweSIsImdlb3NpdGU6dG9ycmVudCIsImdlb3NpdGU6Y2F0ZWdvcnktYWRzIl0sIkJsb2NrSXAiOltdLCJEb21haW5TdHJhdGVneSI6IklQSWZOb25NYXRjaCIsIkZha2VETlMiOiJmYWxzZSJ9
