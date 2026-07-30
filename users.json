@@ -1062,9 +1062,12 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-30 06:13:01.227567",
-    "profiles": [],
+    "profiles": [
+      "black"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-30 06:13:38.882558"
   },
   "5800575421": {
     "terms": false,
