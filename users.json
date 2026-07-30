@@ -928,8 +928,11 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-30 00:33:52.004926",
-    "profiles": [],
+    "profiles": [
+      "lte"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-30 00:34:18.917166"
   }
 }
