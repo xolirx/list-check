@@ -1,4 +1,10 @@
 #profile-title: GhostShield VPN | BLACK
+#subscribe-url: https://t.me/GhostShield
+#support-url: https://t.me/GhostShield_Support
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
+
+#profile-title: GhostShield VPN | BLACK
 #announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogV2ktRmkK0JHQtdC3INC+0LPRgNCw0L3QuNGH0LXQvdC40Y8g0YLRgNCw0YTQuNC60LAK0J/QvtC00LTQtdGA0LbQutCwIC0gQEdob3N0U2hpZWxkX1N1cHBvcnQ=
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
