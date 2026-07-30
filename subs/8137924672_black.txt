@@ -1,4 +1,11 @@
 #profile-title: GhostShield VPN | BLACK
+#announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogV2ktRmkK0JHQtdC3INC+0LPRgNCw0L3QuNGH0LXQvdC40Y8g0YLRgNCw0YTQuNC60LAsINC+0LHQvdC+0LLQu9C10L3QuNC1INC60LDQttC00YvQuSDRh9Cw0YEK0J/QvtC00LTQtdGA0LbQutCwIC0gQEdob3N0U2hpZWxkX1N1cHBvcnQ=
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
+#support-url: https://t.me/GhostShield_Support
+#profile-web-page-url: https://t.me/GhostShield
+
+#profile-title: GhostShield VPN | BLACK
 #announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogV2ktRmkK0JHQtdC3INC+0LPRgNCw0L3QuNGH0LXQvdC40Y8g0YLRgNCw0YTQuNC60LAK0J/QvtC00LTQtdGA0LbQutCwIC0gQEdob3N0U2hpZWxkX1N1cHBvcnQ=
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
