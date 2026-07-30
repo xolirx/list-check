@@ -1318,10 +1318,11 @@
     "subscribed": true,
     "date": "2026-07-30 16:29:55.687495",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 16:30:23.284777"
+    "last_update": "2026-07-30 16:32:15.727699"
   }
 }
