@@ -1206,10 +1206,11 @@
     "subscribed": true,
     "date": "2026-07-30 10:00:16.564033",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 10:00:33.566189"
+    "last_update": "2026-07-30 10:01:03.637979"
   }
 }
