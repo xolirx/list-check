@@ -1209,7 +1209,9 @@
       "lte",
       "black"
     ],
-    "links": {},
+    "links": {
+      "black": "https://clck.ru/3V3BUX"
+    },
     "generations": 0,
     "last_update": "2026-07-30 15:46:44.665450"
   },
