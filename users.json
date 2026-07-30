@@ -11,8 +11,7 @@
       "black": "https://clck.ru/3V2Jg2"
     },
     "generations": 2,
-    "last_update": "2026-07-30 13:21:55.328442",
-    "pinned": true
+    "last_update": "2026-07-30 13:21:55.328442"
   },
   "7508748371": {
     "terms": true,
@@ -55,7 +54,7 @@
   },
   "5787533902": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "2026-07-29 19:32:01.654188",
     "profiles": [],
     "links": {},
@@ -1345,19 +1344,6 @@
     "profiles": [],
     "links": {},
     "generations": 0,
-    "pinned": false
-  },
-  "5133712779": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "black"
-    ],
-    "links": {
-      "black": "https://clck.ru/3V38Jo"
-    },
-    "generations": 1,
     "pinned": false
   }
 }
