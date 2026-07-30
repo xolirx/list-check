@@ -5,6 +5,13 @@
 #support-url: https://t.me/GhostShield_Support
 #profile-web-page-url: https://t.me/GhostShield
 
+#profile-title: GhostShield VPN | BLACK
+#announce: base64:0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsDogV2ktRmkK0JHQtdC3INC+0LPRgNCw0L3QuNGH0LXQvdC40Y8g0YLRgNCw0YTQuNC60LAsINC+0LHQvdC+0LLQu9C10L3QuNC1INC60LDQttC00YvQuSDRh9Cw0YEK0J/QvtC00LTQtdGA0LbQutCwIC0gQEdob3N0U2hpZWxkX1N1cHBvcnQ=
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
+#support-url: https://t.me/GhostShield_Support
+#profile-web-page-url: https://t.me/GhostShield
+
 vless://bd99da97-265e-0021-82cc-4ec009fe9ce2@fl.musicperec.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=0a4b7c3d&sni=www.amd.com&spx=/#🇫🇮 Финляндия
 vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@dev.tunnelpoint.space:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=dev.tunnelpoint.space&fp=qq&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&sid=fdda9806fe5d8584#🇫🇮 Финляндия
 vless://2354a767-9500-461f-8b09-9344cb80dabb@146.75.119.82:80?path=ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048&security=none&encryption=none&host=rb24.ir&type=ws#🇫🇮 Финляндия
