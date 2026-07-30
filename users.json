@@ -665,9 +665,12 @@
     "terms": true,
     "subscribed": true,
     "date": "2026-07-30 06:40:43.649619",
-    "profiles": [],
+    "profiles": [
+      "lte"
+    ],
     "links": {},
-    "generations": 0
+    "generations": 0,
+    "last_update": "2026-07-30 06:41:00.261343"
   },
   "2040578579": {
     "terms": true,
