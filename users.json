@@ -1132,7 +1132,9 @@
     "profiles": [
       "black"
     ],
-    "links": {},
+    "links": {
+      "black": "https://clck.ru/3V39Qf"
+    },
     "generations": 0,
     "last_update": "2026-07-30 07:09:58.965911",
     "pinned": true
