@@ -1515,7 +1515,7 @@
     "pinned": false
   },
   "403675312": {
-    "terms": false,
+    "terms": true,
     "subscribed": true,
     "date": "",
     "profiles": [],
