@@ -816,7 +816,9 @@
     "profiles": [
       "lte"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V3XD7"
+    },
     "generations": 0,
     "last_update": "2026-07-30 01:38:38.994473"
   },
