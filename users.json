@@ -166,7 +166,8 @@
       "lte": "https://clck.ru/3V2Jww"
     },
     "generations": 0,
-    "last_update": "2026-07-29 19:16:21.522282"
+    "last_update": "2026-07-29 19:16:21.522282",
+    "pinned": true
   },
   "7578638871": {
     "terms": true,
