@@ -573,10 +573,13 @@
     "subscribed": true,
     "date": "2026-07-29 19:49:50.974352",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
-    "links": {},
-    "generations": 0,
+    "links": {
+      "lte": "https://clck.ru/3V3hoH"
+    },
+    "generations": 1,
     "last_update": "2026-07-29 19:50:12.057650"
   },
   "5743058666": {
