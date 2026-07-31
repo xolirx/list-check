@@ -1618,14 +1618,12 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte",
-      "black"
+      "lte"
     ],
     "links": {
-      "lte": "https://clck.ru/3V3hnZ",
-      "black": "https://clck.ru/3V3hqH"
+      "lte": "https://clck.ru/3V3hnZ"
     },
-    "generations": 2,
+    "generations": 1,
     "pinned": true
   },
   "187064004": {
@@ -1650,19 +1648,6 @@
     ],
     "links": {
       "lte": "https://clck.ru/3V3dwY"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "5274580712": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V3htq"
     },
     "generations": 1,
     "pinned": false
