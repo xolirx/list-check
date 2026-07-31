@@ -1411,12 +1411,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V3isr"
+      "black": "https://clck.ru/3V3isr",
+      "lte": "https://clck.ru/3V3iv8"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "8856892464": {
