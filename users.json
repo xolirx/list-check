@@ -5055,12 +5055,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4Wkd"
+      "lte": "https://clck.ru/3V4Wkd",
+      "black": "https://clck.ru/3V4Wnm"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "6814026810": {
