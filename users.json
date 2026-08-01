@@ -2428,7 +2428,7 @@
   },
   "6129120985": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -5720,10 +5720,10 @@
       "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4ZNQ",
+      "black": "https://clck.ru/3V4ZNr",
       "lte": "https://clck.ru/3V4ZNU"
     },
     "generations": 2,
-    "pinned": false
+    "pinned": true
   }
 }
