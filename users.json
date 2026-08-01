@@ -1746,10 +1746,14 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V4ZXE"
+    },
+    "generations": 1,
+    "pinned": true
   },
   "467016746": {
     "terms": true,
