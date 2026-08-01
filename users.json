@@ -4365,12 +4365,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4TVb"
+      "lte": "https://clck.ru/3V4TVb",
+      "black": "https://clck.ru/3V4TaP"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "6839687976": {
