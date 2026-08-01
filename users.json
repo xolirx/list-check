@@ -1132,7 +1132,8 @@
     ],
     "links": {},
     "generations": 0,
-    "last_update": "2026-07-30 12:00:27.315306"
+    "last_update": "2026-07-30 12:00:27.315306",
+    "pinned": true
   },
   "8447784835": {
     "terms": true,
