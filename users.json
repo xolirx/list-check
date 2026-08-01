@@ -1128,15 +1128,11 @@
     "subscribed": true,
     "date": "2026-07-30 06:33:48.353840",
     "profiles": [
-      "black",
-      "lte"
+      "black"
     ],
-    "links": {
-      "lte": "https://clck.ru/3V4U8A"
-    },
-    "generations": 1,
-    "last_update": "2026-07-30 12:00:27.315306",
-    "pinned": true
+    "links": {},
+    "generations": 0,
+    "last_update": "2026-07-30 12:00:27.315306"
   },
   "8447784835": {
     "terms": true,
@@ -2717,14 +2713,10 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4UA8"
-    },
-    "generations": 1,
-    "pinned": true
+    "profiles": [],
+    "links": {},
+    "generations": 0,
+    "pinned": false
   },
   "5164473867": {
     "terms": true,
@@ -4277,7 +4269,7 @@
   },
   "6609945006": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "black",
@@ -4454,16 +4446,12 @@
     "pinned": true
   },
   "1453680845": {
-    "terms": true,
-    "subscribed": true,
+    "terms": false,
+    "subscribed": false,
     "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4U37"
-    },
-    "generations": 1,
+    "profiles": [],
+    "links": {},
+    "generations": 0,
     "pinned": false
   },
   "6141945446": {
@@ -4509,7 +4497,7 @@
   },
   "8107948318": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "black"
@@ -4573,47 +4561,10 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black",
-      "lte"
-    ],
-    "links": {
-      "black": "https://clck.ru/3V4TwW",
-      "lte": "https://clck.ru/3V4U2h"
-    },
-    "generations": 2,
-    "pinned": false
-  },
-  "7886182386": {
-    "terms": false,
-    "subscribed": false,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
-  },
-  "8782924743": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
       "black"
     ],
     "links": {
-      "black": "https://clck.ru/3V4U7x"
-    },
-    "generations": 1,
-    "pinned": true
-  },
-  "6840561579": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "black"
-    ],
-    "links": {
-      "black": "https://clck.ru/3V4U7o"
+      "black": "https://clck.ru/3V4TwW"
     },
     "generations": 1,
     "pinned": false
