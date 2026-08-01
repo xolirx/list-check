@@ -4573,9 +4573,13 @@
     "terms": false,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V4UD5"
+    },
+    "generations": 1,
     "pinned": false
   }
 }
