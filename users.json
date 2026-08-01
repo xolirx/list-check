@@ -3061,12 +3061,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4RHJ"
+      "black": "https://clck.ru/3V4RHJ",
+      "lte": "https://clck.ru/3V4RKr"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "2062282805": {
