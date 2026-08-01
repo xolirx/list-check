@@ -5303,12 +5303,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Xyr"
+      "black": "https://clck.ru/3V4Xyr",
+      "lte": "https://clck.ru/3V4Y2S"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "6658595285": {
