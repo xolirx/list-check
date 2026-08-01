@@ -4758,12 +4758,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4UmZ"
+      "lte": "https://clck.ru/3V4UmZ",
+      "black": "https://clck.ru/3V4UoC"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "8081413579": {
