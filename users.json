@@ -1453,14 +1453,10 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4V73"
-    },
-    "generations": 1,
-    "pinned": true
+    "profiles": [],
+    "links": {},
+    "generations": 0,
+    "pinned": false
   },
   "1394293850": {
     "terms": true,
@@ -2727,7 +2723,7 @@
   },
   "7363530403": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [],
     "links": {},
@@ -3842,7 +3838,7 @@
   },
   "8729391556": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -4663,7 +4659,7 @@
   },
   "8831424960": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -4698,7 +4694,7 @@
   },
   "6802785431": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -4724,7 +4720,7 @@
   },
   "1698530519": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "black"
@@ -4737,7 +4733,7 @@
   },
   "8016357759": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "black"
@@ -4793,7 +4789,7 @@
   },
   "7132524202": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -4802,50 +4798,6 @@
       "lte": "https://clck.ru/3V4UtC"
     },
     "generations": 1,
-    "pinned": false
-  },
-  "1616729275": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4Uxj"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "7101080708": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4UzR"
-    },
-    "generations": 1,
-    "pinned": true
-  },
-  "1012422499": {
-    "terms": false,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
-  },
-  "5866897642": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
     "pinned": false
   }
 }
