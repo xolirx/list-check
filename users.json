@@ -4466,12 +4466,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4TiX"
+      "black": "https://clck.ru/3V4TiX",
+      "lte": "https://clck.ru/3V4Tkv"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "1056666430": {
