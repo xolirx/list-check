@@ -4221,12 +4221,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4TAr"
+      "black": "https://clck.ru/3V4TAr",
+      "lte": "https://clck.ru/3V4TDD"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "8565426853": {
