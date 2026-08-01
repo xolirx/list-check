@@ -3731,12 +3731,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4SHd"
+      "black": "https://clck.ru/3V4SHd",
+      "lte": "https://clck.ru/3V4SHm"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "7078782574": {
