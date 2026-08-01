@@ -708,9 +708,12 @@
       "black",
       "lte"
     ],
-    "links": {},
+    "links": {
+      "black": "https://clck.ru/3V4YYX"
+    },
     "generations": 0,
-    "last_update": "2026-07-30 16:24:28.478087"
+    "last_update": "2026-07-30 16:24:28.478087",
+    "pinned": true
   },
   "8825789229": {
     "terms": true,
