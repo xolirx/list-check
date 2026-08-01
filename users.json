@@ -292,8 +292,7 @@
       "black": "https://clck.ru/3V3yJh"
     },
     "generations": 0,
-    "last_update": "2026-07-30 00:35:21.924580",
-    "pinned": true
+    "last_update": "2026-07-30 00:35:21.924580"
   },
   "6724545925": {
     "terms": true,
@@ -4924,74 +4923,6 @@
     ],
     "links": {
       "black": "https://clck.ru/3V4VxV"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "7914090896": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte",
-      "black"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4W8J",
-      "black": "https://clck.ru/3V4W9c"
-    },
-    "generations": 2,
-    "pinned": false
-  },
-  "5261188832": {
-    "terms": false,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
-  },
-  "6470680660": {
-    "terms": false,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
-  },
-  "8053202201": {
-    "terms": false,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
-  },
-  "8360470574": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4WAm"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "1425830733": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4WBW"
     },
     "generations": 1,
     "pinned": false
