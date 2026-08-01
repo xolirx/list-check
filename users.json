@@ -4209,12 +4209,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4THc"
+      "black": "https://clck.ru/3V4THc",
+      "lte": "https://clck.ru/3V4THu"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "6505727105": {
