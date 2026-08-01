@@ -681,9 +681,12 @@
     "profiles": [
       "lte"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V4YQY"
+    },
     "generations": 0,
-    "last_update": "2026-07-30 06:41:00.261343"
+    "last_update": "2026-07-30 06:41:00.261343",
+    "pinned": true
   },
   "2040578579": {
     "terms": true,
