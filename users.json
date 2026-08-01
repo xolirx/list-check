@@ -3238,12 +3238,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4RTT"
+      "lte": "https://clck.ru/3V4RTT",
+      "black": "https://clck.ru/3V4RTd"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "6975186211": {
