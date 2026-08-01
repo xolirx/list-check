@@ -4319,12 +4319,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4TSL"
+      "black": "https://clck.ru/3V4TSL",
+      "lte": "https://clck.ru/3V4TZq"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "962207919": {
