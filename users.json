@@ -3288,12 +3288,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4Xd8"
+      "lte": "https://clck.ru/3V4Xd8",
+      "black": "https://clck.ru/3V4XhN"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "5887222632": {
