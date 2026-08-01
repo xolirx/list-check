@@ -6098,12 +6098,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4bvK"
+      "black": "https://clck.ru/3V4bvK",
+      "lte": "https://clck.ru/3V4bwc"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
