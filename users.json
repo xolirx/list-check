@@ -1263,7 +1263,7 @@
   },
   "7630163901": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "2026-07-30 10:45:56.112270",
     "profiles": [
       "lte"
@@ -1880,15 +1880,6 @@
       "black": "https://clck.ru/3V42Wc"
     },
     "generations": 1,
-    "pinned": false
-  },
-  "5541231831": {
-    "terms": false,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
     "pinned": false
   }
 }
