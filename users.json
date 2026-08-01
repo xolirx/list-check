@@ -2625,7 +2625,7 @@
   },
   "8086751771": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -3821,7 +3821,7 @@
   },
   "7655881474": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "black"
@@ -3878,7 +3878,7 @@
   },
   "6669670034": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "black",
@@ -3982,7 +3982,7 @@
   },
   "7954764171": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -3995,7 +3995,7 @@
   },
   "1149401895": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -4178,87 +4178,16 @@
     "pinned": false
   },
   "8563634905": {
-    "terms": true,
+    "terms": false,
     "subscribed": true,
     "date": "",
-    "profiles": [
-      "black"
-    ],
-    "links": {
-      "black": "https://clck.ru/3V4T7V"
-    },
-    "generations": 1,
-    "pinned": true
+    "profiles": [],
+    "links": {},
+    "generations": 0,
+    "pinned": false
   },
   "6878217780": {
     "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4T5Y"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "1892454039": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4T8V"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "5656743592": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "black",
-      "lte"
-    ],
-    "links": {
-      "black": "https://clck.ru/3V4TAr",
-      "lte": "https://clck.ru/3V4TDD"
-    },
-    "generations": 2,
-    "pinned": false
-  },
-  "8565426853": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4TBq"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "1891259446": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [
-      "lte"
-    ],
-    "links": {
-      "lte": "https://clck.ru/3V4TD2"
-    },
-    "generations": 1,
-    "pinned": false
-  },
-  "5839065733": {
-    "terms": false,
     "subscribed": true,
     "date": "",
     "profiles": [],
@@ -4267,17 +4196,8 @@
     "pinned": false
   },
   "1398960414": {
-    "terms": true,
-    "subscribed": true,
-    "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
-  },
-  "5024071501": {
     "terms": false,
-    "subscribed": false,
+    "subscribed": true,
     "date": "",
     "profiles": [],
     "links": {},
