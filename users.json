@@ -4933,12 +4933,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4W8J"
+      "lte": "https://clck.ru/3V4W8J",
+      "black": "https://clck.ru/3V4W9c"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "5261188832": {
