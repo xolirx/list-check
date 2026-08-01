@@ -2144,12 +2144,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Tbe"
+      "black": "https://clck.ru/3V4Tbe",
+      "lte": "https://clck.ru/3V4Td9"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "528715212": {
