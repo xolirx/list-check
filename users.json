@@ -1747,12 +1747,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4ZXE"
+      "lte": "https://clck.ru/3V4ZXE",
+      "black": "https://clck.ru/3V4ZY5"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "467016746": {
