@@ -5824,7 +5824,7 @@
   },
   "7972494512": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -5866,9 +5866,13 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V4aUV"
+    },
+    "generations": 1,
     "pinned": false
   }
 }
