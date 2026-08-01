@@ -1912,12 +1912,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V42sE"
+      "black": "https://clck.ru/3V42sE",
+      "lte": "https://clck.ru/3V4bVU"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "829165405": {
