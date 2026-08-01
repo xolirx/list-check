@@ -3941,12 +3941,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Se6"
+      "black": "https://clck.ru/3V4Se6",
+      "lte": "https://clck.ru/3V4Sgw"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "7927236429": {
