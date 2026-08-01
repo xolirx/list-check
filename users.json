@@ -6030,7 +6030,7 @@
     "pinned": false
   },
   "1978000900": {
-    "terms": false,
+    "terms": true,
     "subscribed": true,
     "date": "",
     "profiles": [],
