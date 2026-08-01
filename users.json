@@ -2945,12 +2945,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Vw5"
+      "black": "https://clck.ru/3V4Vw5",
+      "lte": "https://clck.ru/3V4VwW"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "7798721729": {
