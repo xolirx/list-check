@@ -4085,7 +4085,7 @@
       "black": "https://clck.ru/3V4Smq"
     },
     "generations": 1,
-    "pinned": false
+    "pinned": true
   },
   "7813443475": {
     "terms": true,
@@ -5370,8 +5370,8 @@
     "pinned": false
   },
   "8536448517": {
-    "terms": false,
-    "subscribed": false,
+    "terms": true,
+    "subscribed": true,
     "date": "",
     "profiles": [],
     "links": {},
