@@ -2571,12 +2571,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Qq8"
+      "black": "https://clck.ru/3V4Qq8",
+      "lte": "https://clck.ru/3V4QqG"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "212702651": {
