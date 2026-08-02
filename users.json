@@ -7827,9 +7827,13 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://raw.githubusercontent.com/xolirx/list-check/main/subs/5444841402_lte.txt?v=1785684986"
+    },
+    "generations": 1,
     "pinned": false
   },
   "774531431": {
