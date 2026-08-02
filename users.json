@@ -7943,12 +7943,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4z45"
+      "black": "https://clck.ru/3V4z45",
+      "lte": "https://clck.ru/3V4z4g"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
