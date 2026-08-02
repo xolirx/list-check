@@ -6705,12 +6705,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4j4u"
+      "lte": "https://clck.ru/3V4j4u",
+      "black": "https://clck.ru/3V4jWa"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "6692876010": {
