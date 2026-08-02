@@ -3694,7 +3694,7 @@
       "lte"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4S2L"
+      "lte": "https://clck.ru/3V4oK2"
     },
     "generations": 1,
     "pinned": false
@@ -6630,12 +6630,13 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
       "lte": "https://clck.ru/3V4ibg"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "589011037": {
