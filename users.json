@@ -7963,10 +7963,16 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
+    "profiles": [
+      "lte",
+      "black"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V4z8n",
+      "black": "https://clck.ru/3V4z8r"
+    },
+    "generations": 2,
+    "pinned": true
   },
   "7026770899": {
     "terms": true,
@@ -7975,6 +7981,6 @@
     "profiles": [],
     "links": {},
     "generations": 0,
-    "pinned": false
+    "pinned": true
   }
 }
