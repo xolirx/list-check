@@ -1322,7 +1322,9 @@
     "profiles": [
       "black"
     ],
-    "links": {},
+    "links": {
+      "black": "https://clck.ru/3V4w4F"
+    },
     "generations": 0,
     "last_update": "2026-07-30 17:52:01.462898"
   },
