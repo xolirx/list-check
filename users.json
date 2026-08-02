@@ -1194,7 +1194,9 @@
       "black",
       "lte"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V547x"
+    },
     "generations": 0,
     "last_update": "2026-07-30 16:14:11.822438",
     "pinned": true
