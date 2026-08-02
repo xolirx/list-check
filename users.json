@@ -875,9 +875,12 @@
       "lte",
       "black"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V4qHf"
+    },
     "generations": 0,
-    "last_update": "2026-07-30 05:14:34.185567"
+    "last_update": "2026-07-30 05:14:34.185567",
+    "pinned": true
   },
   "5513702392": {
     "terms": true,
