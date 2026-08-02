@@ -2169,12 +2169,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4z2V"
+      "black": "https://clck.ru/3V4z2V",
+      "lte": "https://clck.ru/3V4z74"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "7784188831": {
