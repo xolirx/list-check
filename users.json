@@ -6229,12 +6229,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4cz4"
+      "black": "https://clck.ru/3V4cz4",
+      "lte": "https://clck.ru/3V4xzs"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "8165519113": {
