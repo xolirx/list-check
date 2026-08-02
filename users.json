@@ -6175,12 +6175,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4cqW"
+      "black": "https://clck.ru/3V4cqW",
+      "lte": "https://clck.ru/3V4nWD"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "7090683354": {
