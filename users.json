@@ -7035,12 +7035,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4not"
+      "lte": "https://clck.ru/3V4not",
+      "black": "https://clck.ru/3V4ntP"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
