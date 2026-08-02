@@ -7216,13 +7216,15 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4qi6"
+      "black": "https://clck.ru/3V4qi6",
+      "lte": "https://clck.ru/3V4qjJ"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   },
   "814602856": {
     "terms": true,
