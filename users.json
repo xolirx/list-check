@@ -6966,7 +6966,9 @@
     "profiles": [
       "lte"
     ],
-    "links": {},
+    "links": {
+      "lte": "https://clck.ru/3V4nJH"
+    },
     "generations": 1,
     "pinned": false
   },
