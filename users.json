@@ -8251,12 +8251,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V54tC"
+      "black": "https://clck.ru/3V54tC",
+      "lte": "https://clck.ru/3V559V"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   }
 }
