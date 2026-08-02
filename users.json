@@ -6237,7 +6237,7 @@
       "lte": "https://clck.ru/3V4xzs"
     },
     "generations": 2,
-    "pinned": false
+    "pinned": true
   },
   "8165519113": {
     "terms": true,
@@ -7715,6 +7715,15 @@
       "lte": "https://clck.ru/3V4xyb"
     },
     "generations": 1,
+    "pinned": false
+  },
+  "6468468511": {
+    "terms": false,
+    "subscribed": false,
+    "date": "",
+    "profiles": [],
+    "links": {},
+    "generations": 0,
     "pinned": false
   }
 }
