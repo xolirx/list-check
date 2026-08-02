@@ -6251,9 +6251,13 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V4dp6"
+    },
+    "generations": 1,
     "pinned": false
   }
 }
