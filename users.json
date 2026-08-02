@@ -7969,8 +7969,8 @@
     "pinned": false
   },
   "7026770899": {
-    "terms": false,
-    "subscribed": false,
+    "terms": true,
+    "subscribed": true,
     "date": "",
     "profiles": [],
     "links": {},
