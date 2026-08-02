@@ -7530,12 +7530,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4vLs"
+      "lte": "https://clck.ru/3V4vLs",
+      "black": "https://clck.ru/3V4vNW"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
