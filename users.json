@@ -1771,13 +1771,15 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V3oZa"
+      "lte": "https://clck.ru/3V3oZa",
+      "black": "https://clck.ru/3V4qNp"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   },
   "8963019215": {
     "terms": false,
