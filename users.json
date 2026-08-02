@@ -1716,7 +1716,7 @@
       "black": "https://clck.ru/3V3jjm"
     },
     "generations": 1,
-    "pinned": false
+    "pinned": true
   },
   "8590003096": {
     "terms": true,
@@ -6957,6 +6957,15 @@
       "black": "https://clck.ru/3V4nGU"
     },
     "generations": 1,
+    "pinned": false
+  },
+  "5681557340": {
+    "terms": false,
+    "subscribed": false,
+    "date": "",
+    "profiles": [],
+    "links": {},
+    "generations": 0,
     "pinned": false
   }
 }
