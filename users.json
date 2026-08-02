@@ -8547,12 +8547,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V57HN"
+      "lte": "https://clck.ru/3V57HN",
+      "black": "https://clck.ru/3V57Ln"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "7691089365": {
