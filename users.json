@@ -6791,13 +6791,15 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4kCk"
+      "lte": "https://clck.ru/3V4kCk",
+      "black": "https://clck.ru/3V4kWU"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   },
   "5368763439": {
     "terms": true,
