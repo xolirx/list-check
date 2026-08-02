@@ -6317,12 +6317,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V4eb4"
+      "lte": "https://clck.ru/3V4eb4",
+      "black": "https://clck.ru/3V4ec9"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "1708008278": {
