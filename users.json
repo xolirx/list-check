@@ -6744,12 +6744,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4jNz"
+      "black": "https://clck.ru/3V4jNz",
+      "lte": "https://clck.ru/3V4jRE"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   }
 }
