@@ -6912,7 +6912,9 @@
     "profiles": [
       "black"
     ],
-    "links": {},
+    "links": {
+      "black": "https://clck.ru/3V4msJ"
+    },
     "generations": 1,
     "pinned": false
   }
