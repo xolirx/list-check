@@ -8079,12 +8079,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V53KH"
+      "lte": "https://clck.ru/3V53KH",
+      "black": "https://clck.ru/3V53Ku"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
