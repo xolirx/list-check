@@ -7722,12 +7722,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4yF3"
+      "black": "https://clck.ru/3V4yF3",
+      "lte": "https://clck.ru/3V4yGr"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "5238011332": {
