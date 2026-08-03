@@ -9006,12 +9006,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V5kag"
+      "black": "https://clck.ru/3V5keP",
+      "lte": "https://clck.ru/3V5kas"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
