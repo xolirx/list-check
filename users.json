@@ -9284,9 +9284,13 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V5wcH"
+    },
+    "generations": 1,
     "pinned": false
   },
   "8434228580": {
