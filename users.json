@@ -9005,9 +9005,15 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "black",
+      "lte"
+    ],
+    "links": {
+      "black": "https://clck.ru/3V5kag",
+      "lte": "https://clck.ru/3V5kas"
+    },
+    "generations": 2,
     "pinned": false
   }
 }
