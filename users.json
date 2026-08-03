@@ -1934,12 +1934,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V42Wc"
+      "black": "https://clck.ru/3V42Wc",
+      "lte": "https://clck.ru/3V5rPs"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "5541231831": {
