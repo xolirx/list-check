@@ -8,20 +8,6 @@
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────┐
-│                                             │
-│   ██████  ██  ██████    ██████  ██████      │
-│  ██       ██ ██         ██  ██ ██  ██      │
-│   ██████  ██ ██         ██  ██ ██████      │
-│        ██ ██ ██         ██  ██ ██  ██      │
-│   ██████  ██  ██████    ██████  ██  ██      │
-│                                             │
-└─────────────────────────────────────────────┘
-```
-
-<br />
-
 ![Status: Active](https://img.shields.io/badge/STATUS-ACTIVE-white?style=for-the-badge&labelColor=000000&color=000000)
 ![VPN](https://img.shields.io/badge/VLESS-Reality-white?style=for-the-badge&labelColor=000000&color=000000)
 ![Auto Update](https://img.shields.io/badge/UPDATE-daily-white?style=for-the-badge&labelColor=000000&color=000000)
@@ -135,7 +121,6 @@ flowchart LR
 ## 🔗 Ссылки
 
 - **Поддержка:** [@GhostShield_Support](https://t.me/GhostShield_Support)
-- **Инструкция:** vlesshelp.h1cloud.net
 - **Протокол:** VLESS (Reality, XHTTP, gRPC, WS)
 
 ---
@@ -145,16 +130,6 @@ flowchart LR
 </p>
 
 <div align="center">
-
-```
-███████  ██    ██  ██████   ██████  ██      ██
-██       ██    ██ ██    ██ ██    ██ ██      ██
-███████  ██    ██ ██    ██ ██    ██ ██      ██
-     ██  ██    ██ ██    ██ ██    ██ ██      ██
-███████   ██████   ██████   ██████  ███████ ███████
-```
-
-<br />
 
 `© 2026 GhostShield VPN` · `dark mode on · forever`
 
