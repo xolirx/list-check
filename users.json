@@ -1010,11 +1010,15 @@
     "subscribed": true,
     "date": "2026-07-30 04:12:12.683193",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
-    "links": {},
-    "generations": 0,
-    "last_update": "2026-07-30 04:12:29.043800"
+    "links": {
+      "lte": "https://clck.ru/3V59Tq"
+    },
+    "generations": 1,
+    "last_update": "2026-07-30 04:12:29.043800",
+    "pinned": true
   },
   "407154005": {
     "terms": true,
