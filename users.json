@@ -324,10 +324,11 @@
       "lte"
     ],
     "links": {
-      "lte": "https://clck.ru/3V2K5Q"
+      "lte": "https://clck.ru/3V5pMH"
     },
     "generations": 0,
-    "last_update": "2026-07-30 10:58:51.672966"
+    "last_update": "2026-07-30 10:58:51.672966",
+    "pinned": true
   },
   "5890511581": {
     "terms": true,
