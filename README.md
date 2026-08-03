@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30672900/README.md)
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=40&pause=100&color=FFFFFF&center=true&vCenter=true&width=800&height=100&lines=GHOSTSHIELD+VPN+%E2%96%88;SUBSCRIPTION+STORE+%E2%96%88;DARK+MODE+ON+%E2%96%88" alt="GhostShield VPN animated title" />
 </p>
