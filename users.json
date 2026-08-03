@@ -2420,13 +2420,15 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Qfh"
+      "black": "https://clck.ru/3V4Qfh",
+      "lte": "https://clck.ru/3V5oyq"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   },
   "6404481915": {
     "terms": true,
