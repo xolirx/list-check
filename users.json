@@ -8616,12 +8616,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V58th"
+      "lte": "https://clck.ru/3V58th",
+      "black": "https://clck.ru/3V58vo"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
