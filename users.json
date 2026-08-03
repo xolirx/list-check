@@ -2837,10 +2837,14 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V5w3Z"
+    },
+    "generations": 1,
+    "pinned": true
   },
   "8731111730": {
     "terms": true,
