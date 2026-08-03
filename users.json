@@ -8870,12 +8870,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V5X7W"
+      "lte": "https://clck.ru/3V5X7W",
+      "black": "https://clck.ru/3V5X7d"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
