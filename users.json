@@ -1440,7 +1440,7 @@
     ],
     "links": {
       "lte": "https://clck.ru/3V4xR3",
-      "black": "https://clck.ru/3V4xEd"
+      "black": "https://clck.ru/3V6pfZ"
     },
     "generations": 2,
     "pinned": true
@@ -9830,12 +9830,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V6pMu"
+      "lte": "https://clck.ru/3V6pMu",
+      "black": "https://clck.ru/3V6pb3"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
