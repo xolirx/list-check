@@ -6109,10 +6109,14 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V6q7B"
+    },
+    "generations": 1,
+    "pinned": true
   },
   "7218647859": {
     "terms": false,
