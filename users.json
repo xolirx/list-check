@@ -7226,7 +7226,7 @@
   },
   "6991004380": {
     "terms": true,
-    "subscribed": false,
+    "subscribed": true,
     "date": "",
     "profiles": [
       "lte",
@@ -9738,6 +9738,6 @@
       "lte": "https://clck.ru/3V6mLy"
     },
     "generations": 1,
-    "pinned": false
+    "pinned": true
   }
 }
