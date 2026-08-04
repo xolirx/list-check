@@ -311,11 +311,12 @@
       "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V2K5D",
+      "black": "https://clck.ru/3V6Whm",
       "lte": "https://clck.ru/3V2K6N"
     },
     "generations": 0,
-    "last_update": "2026-07-29 23:01:04.888078"
+    "last_update": "2026-07-29 23:01:04.888078",
+    "pinned": true
   },
   "1243980540": {
     "terms": true,
