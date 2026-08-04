@@ -9667,12 +9667,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V6kRi"
+      "black": "https://clck.ru/3V6kRi",
+      "lte": "https://clck.ru/3V6kds"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "8708078490": {
