@@ -5211,7 +5211,7 @@
   },
   "6020415207": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte"
@@ -7226,7 +7226,7 @@
   },
   "6991004380": {
     "terms": true,
-    "subscribed": true,
+    "subscribed": false,
     "date": "",
     "profiles": [
       "lte",
