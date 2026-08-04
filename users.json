@@ -9379,12 +9379,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V63VB"
+      "black": "https://clck.ru/3V63VB",
+      "lte": "https://clck.ru/3V63VJ"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
