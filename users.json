@@ -9195,13 +9195,15 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V5sxE"
+      "black": "https://clck.ru/3V5sxE",
+      "lte": "https://clck.ru/3V6wZy"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   },
   "8222170713": {
     "terms": true,
