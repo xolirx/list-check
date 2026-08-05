@@ -10270,12 +10270,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V7eHx"
+      "black": "https://clck.ru/3V7eHx",
+      "lte": "https://clck.ru/3V7eJW"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
