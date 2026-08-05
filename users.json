@@ -9950,12 +9950,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V79ts"
+      "lte": "https://clck.ru/3V79ts",
+      "black": "https://clck.ru/3V7ANM"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
