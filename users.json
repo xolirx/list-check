@@ -10304,7 +10304,7 @@
     "pinned": true
   },
   "1100200318": {
-    "terms": false,
+    "terms": true,
     "subscribed": true,
     "date": "",
     "profiles": [],
