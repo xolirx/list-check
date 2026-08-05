@@ -2371,13 +2371,15 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4QtE"
+      "black": "https://clck.ru/3V4QtE",
+      "lte": "https://clck.ru/3V7efu"
     },
-    "generations": 1,
-    "pinned": false
+    "generations": 2,
+    "pinned": true
   },
   "8459568883": {
     "terms": false,
