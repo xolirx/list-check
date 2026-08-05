@@ -5508,12 +5508,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4a8W"
+      "black": "https://clck.ru/3V4a8W",
+      "lte": "https://clck.ru/3V7erq"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "5152763025": {
