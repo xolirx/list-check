@@ -10169,9 +10169,13 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
+    "profiles": [
+      "lte"
+    ],
+    "links": {
+      "lte": "https://clck.ru/3V7eZ7"
+    },
+    "generations": 1,
     "pinned": true
   },
   "8592184380": {
