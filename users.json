@@ -6276,12 +6276,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "lte"
+      "lte",
+      "black"
     ],
     "links": {
-      "lte": "https://clck.ru/3V77b7"
+      "lte": "https://clck.ru/3V77b7",
+      "black": "https://clck.ru/3V77kw"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "7513787061": {
