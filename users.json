@@ -10536,9 +10536,13 @@
     "terms": true,
     "subscribed": true,
     "date": "",
-    "profiles": [],
-    "links": {},
-    "generations": 0,
-    "pinned": false
+    "profiles": [
+      "black"
+    ],
+    "links": {
+      "black": "https://clck.ru/3V8ExM"
+    },
+    "generations": 1,
+    "pinned": true
   }
 }
