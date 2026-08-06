@@ -45,9 +45,8 @@
 | `proxy-tg.txt` | Telegram MTProto-прокси |
 | `color.txt` | Happ color-profile — кастомная тема клиента |
 | `subs/` | Индивидуальные подписки `<user_id>_<profile>.txt` |
-| `users.json` | База пользователей: профили, ссылки, статусы |
-| `config.json` | Служебная конфигурация |
-| `users.txt` | Упрощённый реестр пользователей |
+
+> **Данные пользователей перенесены:** `users.json`, `config.json`, `users.txt`, `block.txt` теперь живут в репозитории [`xolirx/db`](https://github.com/xolirx/db) (папка `free bot`). Здесь остаются только сервера и подписки.
 
 ---
 
