@@ -7470,12 +7470,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4skp"
+      "black": "https://clck.ru/3V4skp",
+      "lte": "https://clck.ru/3V86PQ"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   },
   "8155222844": {
