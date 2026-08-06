@@ -2703,12 +2703,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V4Qtt"
+      "black": "https://clck.ru/3V4Qtt",
+      "lte": "https://clck.ru/3V82ai"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": true
   },
   "8037668447": {
