@@ -10425,12 +10425,14 @@
     "subscribed": true,
     "date": "",
     "profiles": [
-      "black"
+      "black",
+      "lte"
     ],
     "links": {
-      "black": "https://clck.ru/3V7wNr"
+      "black": "https://clck.ru/3V7wNr",
+      "lte": "https://clck.ru/3V7wNs"
     },
-    "generations": 1,
+    "generations": 2,
     "pinned": false
   }
 }
