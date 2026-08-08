@@ -1,6 +1,6 @@
-#profile-title: GhostShield VPN | BLACK
-#subscribe-url: https://t.me/GhostShield
-#support-url: https://t.me/GhostShield_Support
+#profile-title: GothicVPN | BLACK
+#subscribe-url: https://t.me/GothicVPNX
+#support-url: https://t.me/xolirx
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 
